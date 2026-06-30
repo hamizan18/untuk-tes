@@ -1,841 +1,841 @@
 [
   {
     "id": 1,
-    "pertanyaan": "Apa definisi paling tepat dari Sistem Operasi?",
+    "pertanyaan": "Apakah definisi dari sistem operasi menurut modul pengenalan sistem operasi? [cite: 10]",
     "pilihan": {
-      "A": "Perangkat lunak yang digunakan untuk mengedit teks dan gambar",
-      "B": "Perangkat lunak sistem yang mengelola perangkat keras dan perangkat lunak komputer serta menyediakan layanan umum untuk program komputer",
-      "C": "Perangkat keras yang bertugas memproses data dan instruksi",
-      "D": "Kumpulan kabel dan sirkuit yang menghubungkan komponen komputer",
-      "E": "Program aplikasi yang dirancang khusus untuk bermain game"
+      "A": "Perangkat keras utama yang digunakan untuk proses komputasi",
+      "B": "Program yang bertindak sebagai perantara antara user dengan perangkat keras komputer",
+      "C": "Kumpulan informasi yang berhubungan yang didefinisikan oleh pembuatnya",
+      "D": "Suatu program yang membaca dan menterjemahkan pernyataan kontrol",
+      "E": "Program aplikasi yang menentukan cara sumber daya sistem digunakan"
     },
     "jawaban_benar": "B"
   },
   {
     "id": 2,
-    "pertanyaan": "Manakah dari berikut ini yang BUKAN merupakan fungsi utama dari Sistem Operasi?",
+    "pertanyaan": "Tujuan dari sistem operasi adalah untuk menggunakan perangkat keras komputer secara... [cite: 13]",
     "pilihan": {
-      "A": "Manajemen Memori",
-      "B": "Manajemen Proses",
-      "C": "Manajemen File",
-      "D": "Pembuatan Halaman Web",
-      "E": "Manajemen Input/Output (I/O)"
+      "A": "Maksimal",
+      "B": "Terdistribusi",
+      "C": "Interaktif",
+      "D": "Efisien",
+      "E": "Multitasking"
     },
     "jawaban_benar": "D"
   },
   {
     "id": 3,
-    "pertanyaan": "Inti dari sebuah Sistem Operasi yang mengatur memori, proses, dan perangkat keras, serta selalu berjalan di memori selama komputer hidup disebut...",
+    "pertanyaan": "Perangkat keras komputer sebagai komponen sistem komputer terdiri dari... [cite: 16]",
     "pilihan": {
-      "A": "Shell",
-      "B": "Kernel",
-      "C": "GUI",
-      "D": "Compiler",
-      "E": "Utility"
-    },
-    "jawaban_benar": "B"
-  },
-  {
-    "id": 4,
-    "pertanyaan": "Antarmuka yang menjembatani antara program aplikasi (user-level) dengan layanan Sistem Operasi (kernel-level) disebut...",
-    "pilihan": {
-      "A": "System Call",
-      "B": "Command Line Interface",
-      "C": "Interrupt",
-      "D": "Device Driver",
-      "E": "Graphical User Interface"
+      "A": "CPU, memory, dan perangkat input output",
+      "B": "Compiler, assembler, dan text editor",
+      "C": "Sistem operasi dan program aplikasi",
+      "D": "Kernel, shell, dan command interpreter",
+      "E": "Monitor, disk, dan compiler"
     },
     "jawaban_benar": "A"
   },
   {
-    "id": 5,
-    "pertanyaan": "Kemampuan Sistem Operasi untuk memuat lebih dari satu program ke dalam memori utama pada saat yang bersamaan disebut...",
+    "id": 4,
+    "pertanyaan": "Tugas dari sistem operasi berkaitan dengan program aplikasi adalah... [cite: 20]",
     "pilihan": {
-      "A": "Multiprocessing",
-      "B": "Multithreading",
-      "C": "Multiprogramming",
-      "D": "Time-sharing",
-      "E": "Distributed Processing"
+      "A": "Membuat kode sumber untuk program aplikasi",
+      "B": "Menentukan cara sumber daya sistem digunakan",
+      "C": "Melakukan control dan koordinasi penggunaan perangkat keras pada berbagai program aplikasi",
+      "D": "Menterjemahkan pernyataan dari user langsung ke layar",
+      "E": "Mengeksekusi compiler secara manual"
     },
     "jawaban_benar": "C"
   },
   {
-    "id": 6,
-    "pertanyaan": "Konsep di mana CPU beralih (switch) antar berbagai proses dengan sangat cepat sehingga seolah-olah pengguna berinteraksi dengan setiap program secara bersamaan disebut...",
+    "id": 5,
+    "pertanyaan": "Pada sistem mainframe pendahulu, perangkat input yang digunakan umumnya berupa... [cite: 54]",
     "pilihan": {
-      "A": "Batch Processing",
-      "B": "Multiprogramming",
-      "C": "Time-sharing / Multitasking",
-      "D": "Spooling",
-      "E": "Deadlock"
+      "A": "Keyboard dan mouse",
+      "B": "Display screen CRT",
+      "C": "Scanner dan microphone",
+      "D": "Card reader dan tape drive",
+      "E": "Line printer dan card punch"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Program kecil yang bersifat residen di memori pada sistem komputer pendahulu dan bertugas mengirim control otomatis dari satu job ke job berikutnya disebut... [cite: 59, 60]",
+    "pilihan": {
+      "A": "Compiler",
+      "B": "Assembler",
+      "C": "Resident monitor",
+      "D": "Job pool",
+      "E": "Command interpreter"
     },
     "jawaban_benar": "C"
   },
   {
     "id": 7,
-    "pertanyaan": "Sistem operasi dapat berjalan pada dua mode (Dual-mode operation) untuk melindungi sistem dari program yang salah. Dua mode tersebut adalah...",
+    "pertanyaan": "Teknik yang dikembangkan untuk mengurutkan kerja job secara otomatis guna menghindari waktu nganggur CPU yang lama merupakan bentuk awal dari... [cite: 65, 66]",
     "pilihan": {
-      "A": "Online mode dan Offline mode",
-      "B": "User mode dan Kernel mode",
-      "C": "Graphic mode dan Text mode",
-      "D": "Safe mode dan Normal mode",
-      "E": "Read mode dan Write mode"
-    },
-    "jawaban_benar": "B"
-  },
-  {
-    "id": 8,
-    "pertanyaan": "Program yang sedang dieksekusi disebut dengan...",
-    "pilihan": {
-      "A": "Thread",
-      "B": "Instruksi",
-      "C": "Proses",
-      "D": "Prosedur",
-      "E": "Fungsi"
-    },
-    "jawaban_benar": "C"
-  },
-  {
-    "id": 9,
-    "pertanyaan": "Struktur data yang digunakan oleh Sistem Operasi untuk menyimpan informasi mengenai sebuah proses (seperti state, program counter, register) adalah...",
-    "pilihan": {
-      "A": "Process Control Block (PCB)",
-      "B": "Memory Management Unit (MMU)",
-      "C": "Page Table",
-      "D": "File Allocation Table (FAT)",
-      "E": "Translation Look-aside Buffer (TLB)"
+      "A": "Sistem operasi",
+      "B": "Sistem terdistribusi",
+      "C": "Sistem terklaster",
+      "D": "Sistem real time",
+      "E": "Mesin virtual"
     },
     "jawaban_benar": "A"
   },
   {
-    "id": 10,
-    "pertanyaan": "State (status) dari sebuah proses yang sedang menunggu jatah waktu CPU untuk dieksekusi adalah...",
+    "id": 8,
+    "pertanyaan": "Pada sistem batch multiprogram, kumpulan job yang sudah siap dieksekusi disimpan di dalam... [cite: 77, 78]",
     "pilihan": {
-      "A": "New",
-      "B": "Running",
-      "C": "Ready",
-      "D": "Waiting / Blocked",
-      "E": "Terminated"
+      "A": "Job pool",
+      "B": "Memory sekunder secara eksklusif",
+      "C": "Resident monitor",
+      "D": "Register CPU",
+      "E": "Command interpreter"
     },
-    "jawaban_benar": "C"
+    "jawaban_benar": "A"
   },
   {
-    "id": 11,
-    "pertanyaan": "State dari sebuah proses yang sedang menunggu suatu event tertentu terjadi (misalnya input/output selesai) adalah...",
+    "id": 9,
+    "pertanyaan": "Pengembangan dari sistem multiprogram di mana beberapa job yang berada pada memory utama dieksekusi oleh CPU secara bergantian disebut sistem... [cite: 96]",
     "pilihan": {
-      "A": "New",
-      "B": "Running",
-      "C": "Ready",
-      "D": "Waiting / Blocked",
-      "E": "Terminated"
+      "A": "Real time",
+      "B": "Batch",
+      "C": "Desktop",
+      "D": "Time sharing atau multitasking",
+      "E": "Paralel"
     },
     "jawaban_benar": "D"
   },
   {
-    "id": 12,
-    "pertanyaan": "Proses peralihan CPU dari satu proses ke proses lainnya dengan menyimpan state proses lama dan memuat state proses baru disebut...",
+    "id": 10,
+    "pertanyaan": "Sistem komputasi interaktif, di mana user memberikan instruksi langsung dan menerima respon segera, merupakan karakteristik dari... [cite: 100, 101]",
     "pilihan": {
-      "A": "Context Switch",
-      "B": "System Call",
-      "C": "Interrupt Handling",
-      "D": "Paging",
-      "E": "Swapping"
+      "A": "Sistem mainframe",
+      "B": "Sistem time sharing",
+      "C": "Sistem batch",
+      "D": "Sistem hard real time",
+      "E": "Symmetric multiprocessing"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Sistem paralel yang memiliki lebih dari satu prosessor yang membagi bus, clock, dan memory disebut juga sebagai... [cite: 128, 129]",
+    "pilihan": {
+      "A": "Loosely coupled system",
+      "B": "Tightly coupled system",
+      "C": "Client-server system",
+      "D": "Peer-to-peer system",
+      "E": "Sistem terdistribusi"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Kemampuan sistem multiprosessor untuk melanjutkan penyediaan layanan (meskipun lebih lambat) apabila satu prosessor gagal disebut... [cite: 134, 135]",
+    "pilihan": {
+      "A": "Graceful degradation",
+      "B": "Symmetric multiprocessing",
+      "C": "Asymmetric multiprocessing",
+      "D": "Time sharing",
+      "E": "Context switching"
     },
     "jawaban_benar": "A"
   },
   {
     "id": 13,
-    "pertanyaan": "Unit dasar pemanfaatan CPU yang merupakan bagian dari sebuah proses dan dapat berjalan secara independen membagi memori yang sama disebut...",
+    "pertanyaan": "Model sistem di mana setiap prosessor menjalankan sistem operasi yang identik dan melakukan komunikasi antar prosesor jika diperlukan disebut... [cite: 137]",
     "pilihan": {
-      "A": "Program",
-      "B": "Thread",
-      "C": "Kernel",
-      "D": "Socket",
-      "E": "Port"
+      "A": "Asymmetric multiprocessing",
+      "B": "Master-slave processing",
+      "C": "Symmetric multiprocessing",
+      "D": "Sistem terdistribusi",
+      "E": "Clustered system"
     },
-    "jawaban_benar": "B"
+    "jawaban_benar": "C"
   },
   {
     "id": 14,
-    "pertanyaan": "Modul sistem operasi yang bertugas memberikan kendali CPU kepada proses yang dipilih oleh short-term scheduler adalah...",
+    "pertanyaan": "Hubungan master-slave di mana prosessor master mengontrol sistem dan prosessor lain menunggu instruksi disebut model... [cite: 138, 139, 140]",
     "pilihan": {
-      "A": "Compiler",
-      "B": "Linker",
-      "C": "Loader",
-      "D": "Dispatcher",
-      "E": "Spooler"
-    },
-    "jawaban_benar": "D"
-  },
-  {
-    "id": 15,
-    "pertanyaan": "Jenis penjadwalan di mana CPU tidak dapat diambil secara paksa dari sebuah proses sampai proses tersebut selesai atau dengan sengaja melepaskannya disebut...",
-    "pilihan": {
-      "A": "Preemptive scheduling",
-      "B": "Non-preemptive scheduling",
-      "C": "Round Robin scheduling",
-      "D": "Priority scheduling",
-      "E": "Multilevel Queue scheduling"
+      "A": "Symmetric multiprocessing",
+      "B": "Asymmetric multiprocessing",
+      "C": "Sistem desktop",
+      "D": "Sistem terklaster",
+      "E": "Peer-to-peer"
     },
     "jawaban_benar": "B"
   },
   {
-    "id": 16,
-    "pertanyaan": "Algoritma penjadwalan CPU yang paling sederhana, di mana proses yang datang pertama kali akan dilayani terlebih dahulu adalah...",
+    "id": 15,
+    "pertanyaan": "Sistem terdistribusi yang mendistribusikan komputasi diantara beberapa prosessor yang berkomunikasi melalui saluran komunikasi disebut juga... [cite: 154, 155]",
     "pilihan": {
-      "A": "SJF (Shortest Job First)",
-      "B": "Round Robin",
-      "C": "FCFS (First-Come, First-Served)",
-      "D": "Priority Scheduling",
-      "E": "SRTF (Shortest Remaining Time First)"
+      "A": "Tightly coupled system",
+      "B": "Symmetric multiprocessing",
+      "C": "Loosely coupled system",
+      "D": "Sistem real time",
+      "E": "Asymmetric clustering"
     },
     "jawaban_benar": "C"
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Sistem terdistribusi biasanya dikenal dengan sebutan arsitektur sistem... [cite: 178]",
+    "pilihan": {
+      "A": "Mainframe dan Terminal",
+      "B": "Client-server atau peer-to-peer",
+      "C": "Master dan Slave",
+      "D": "Producer dan Consumer",
+      "E": "Batch dan Multiprogramming"
+    },
+    "jawaban_benar": "B"
   },
   {
     "id": 17,
-    "pertanyaan": "Algoritma penjadwalan CPU yang memberikan jatah waktu tertentu (time quantum) kepada setiap proses secara bergantian adalah...",
+    "pertanyaan": "Perbedaan utama sistem terklaster dengan sistem terdistribusi adalah bahwa sistem terklaster memungkinkan dua atau lebih sistem untuk... [cite: 187]",
     "pilihan": {
-      "A": "SJF",
-      "B": "FCFS",
-      "C": "Round Robin",
-      "D": "Priority Scheduling",
-      "E": "Multilevel Feedback Queue"
+      "A": "Membagi clock CPU bersama-sama",
+      "B": "Membagi penyimpan sekunder (storage) bersama-sama",
+      "C": "Menjalankan sistem operasi yang berbeda-beda",
+      "D": "Beroperasi tanpa infrastruktur jaringan (LAN/WAN)",
+      "E": "Digunakan secara eksklusif untuk aplikasi virtual reality"
     },
-    "jawaban_benar": "C"
+    "jawaban_benar": "B"
   },
   {
     "id": 18,
-    "pertanyaan": "Algoritma penjadwalan yang memilih proses dengan perkiraan waktu eksekusi (burst time) terkecil berikutnya disebut...",
+    "pertanyaan": "Sistem real time yang menjamin tugas kritis diselesaikan tepat waktu, sering kali tanpa menggunakan penyimpan sekunder, disebut... [cite: 198, 199]",
     "pilihan": {
-      "A": "FCFS",
-      "B": "SJF (Shortest Job First)",
-      "C": "Round Robin",
-      "D": "Priority Scheduling",
-      "E": "Lottery Scheduling"
+      "A": "Soft real time",
+      "B": "Hard real time",
+      "C": "Time sharing system",
+      "D": "Interactive system",
+      "E": "Multiprocessing system"
     },
     "jawaban_benar": "B"
   },
   {
     "id": 19,
-    "pertanyaan": "Masalah pada priority scheduling di mana proses dengan prioritas rendah mungkin tidak akan pernah dieksekusi karena selalu ada proses prioritas tinggi yang masuk disebut...",
+    "pertanyaan": "Sistem real time yang terbatas penggunaannya, seperti pada aplikasi multimedia dan virtual reality di mana tugas kritis mendapat prioritas lebih tinggi adalah... [cite: 201, 202]",
     "pilihan": {
-      "A": "Deadlock",
-      "B": "Race Condition",
-      "C": "Starvation",
-      "D": "Fragmentation",
-      "E": "Thrashing"
+      "A": "Hard real time",
+      "B": "Soft real time",
+      "C": "Batch system",
+      "D": "Sistem desktop",
+      "E": "Sistem terklaster"
     },
-    "jawaban_benar": "C"
+    "jawaban_benar": "B"
   },
   {
     "id": 20,
-    "pertanyaan": "Teknik yang digunakan untuk mengatasi masalah Starvation dengan cara meningkatkan prioritas suatu proses seiring bertambahnya waktu tunggunya disebut...",
+    "pertanyaan": "Sistem yang dikembangkan pada tahun 1990-an yang memiliki memory terbatas dan prosessor kecepatan rendah seperti PDA disebut... [cite: 204, 205]",
     "pilihan": {
-      "A": "Aging",
-      "B": "Paging",
-      "C": "Swapping",
-      "D": "Spooling",
-      "E": "Context Switching"
+      "A": "Sistem mainframe",
+      "B": "Sistem desktop",
+      "C": "Sistem handheld",
+      "D": "Sistem terklaster",
+      "E": "Mesin virtual"
     },
-    "jawaban_benar": "A"
+    "jawaban_benar": "C"
   },
   {
     "id": 21,
-    "pertanyaan": "Situasi di mana beberapa proses mengakses dan memanipulasi data yang sama secara bersamaan (concurrently), dan hasil akhirnya bergantung pada urutan eksekusi proses tersebut disebut...",
+    "pertanyaan": "Program yang sedang dieksekusi dan memerlukan sumber daya (resource) seperti waktu CPU dan memori disebut... [cite: 286]",
     "pilihan": {
-      "A": "Deadlock",
-      "B": "Mutual Exclusion",
-      "C": "Race Condition",
-      "D": "Starvation",
-      "E": "Synchronization"
+      "A": "File",
+      "B": "Proses",
+      "C": "Kernel",
+      "D": "Shell",
+      "E": "Direktori"
     },
-    "jawaban_benar": "C"
+    "jawaban_benar": "B"
   },
   {
     "id": 22,
-    "pertanyaan": "Bagian dari kode program di mana proses dapat mengakses memori atau variabel bersama (shared resources) disebut...",
+    "pertanyaan": "Salah satu tanggung jawab sistem operasi dalam manajemen proses adalah... [cite: 287, 288]",
     "pilihan": {
-      "A": "Entry Section",
-      "B": "Remainder Section",
-      "C": "Critical Section",
-      "D": "Exit Section",
-      "E": "Deadlock Section"
+      "A": "Membuat dan menghapus direktori",
+      "B": "Pembuatan dan penghapusan proses yang dibuat user atau sistem",
+      "C": "Mengeksekusi command-line interpreter",
+      "D": "Menyediakan layanan kompilasi bahasa C++",
+      "E": "Memetakan file ke memori sekunder"
     },
-    "jawaban_benar": "C"
+    "jawaban_benar": "B"
   },
   {
     "id": 23,
-    "pertanyaan": "Syarat di mana hanya satu proses yang diizinkan berada di dalam Critical Section pada satu waktu disebut...",
+    "pertanyaan": "Memori utama (primary storage) bersifat volatile, yang berarti... [cite: 295]",
     "pilihan": {
-      "A": "Mutual Exclusion",
-      "B": "Progress",
-      "C": "Bounded Waiting",
-      "D": "No Preemption",
-      "E": "Hold and Wait"
+      "A": "Isi memori akan tersimpan permanen meskipun sistem mati",
+      "B": "Isi memori akan hilang apabila terjadi kegagalan system",
+      "C": "Hanya dapat digunakan untuk menyimpan data file",
+      "D": "Kecepatan aksesnya lebih lambat dari disk",
+      "E": "Digunakan secara eksklusif oleh program aplikasi"
     },
-    "jawaban_benar": "A"
+    "jawaban_benar": "B"
   },
   {
     "id": 24,
-    "pertanyaan": "Sebuah variabel integer yang, selain saat inisialisasi, hanya bisa diakses melalui dua operasi standar tak terpisahkan (atomic) yaitu wait() dan signal() adalah...",
+    "pertanyaan": "Kumpulan informasi yang saling berhubungan yang sudah didefinisikan oleh pembuatnya disebut... [cite: 301]",
     "pilihan": {
-      "A": "Mutex",
-      "B": "Monitor",
-      "C": "Semaphore",
-      "D": "Condition Variable",
-      "E": "Thread"
+      "A": "Direktori",
+      "B": "Proses",
+      "C": "File",
+      "D": "Thread",
+      "E": "Register"
     },
     "jawaban_benar": "C"
   },
   {
     "id": 25,
-    "pertanyaan": "Operasi wait() pada semaphore secara konseptual berfungsi untuk...",
+    "pertanyaan": "Karena memori utama bersifat volatile, sistem komputer harus menyediakan... untuk back up memori utama. [cite: 318]",
     "pilihan": {
-      "A": "Menambah nilai semaphore",
-      "B": "Mengurangi nilai semaphore dan mengeblok proses jika nilainya menjadi kurang dari 0",
-      "C": "Menghapus semaphore dari memori",
-      "D": "Membangunkan proses yang sedang tertidur",
-      "E": "Mencetak nilai semaphore ke layar"
+      "A": "Register CPU",
+      "B": "Sistem jaringan",
+      "C": "Penyimpan sekunder",
+      "D": "Command interpreter",
+      "E": "Sistem I/O"
     },
-    "jawaban_benar": "B"
+    "jawaban_benar": "C"
   },
   {
     "id": 26,
-    "pertanyaan": "Kondisi di mana sekelompok proses terjebak (hang) dan tidak dapat melanjutkan eksekusi karena masing-masing proses saling menunggu sumber daya yang sedang dipegang oleh proses lain dalam kelompok tersebut adalah...",
+    "pertanyaan": "Kumpulan prosessor yang dihubungkan melalui jaringan komunikasi dan tidak menggunakan memori atau clock bersama-sama disebut... [cite: 325, 326]",
     "pilihan": {
-      "A": "Starvation",
-      "B": "Livelock",
-      "C": "Race Condition",
-      "D": "Deadlock",
-      "E": "Thrashing"
+      "A": "Sistem terdistribusi",
+      "B": "Sistem proteksi",
+      "C": "Mesin virtual",
+      "D": "Multiprogramming",
+      "E": "Batch system"
     },
-    "jawaban_benar": "D"
+    "jawaban_benar": "A"
   },
   {
     "id": 27,
-    "pertanyaan": "Berikut ini adalah 4 kondisi (syarat) mutlak terjadinya Deadlock (Coffman conditions), KECUALI...",
+    "pertanyaan": "Mekanisme untuk mengontrol akses oleh program, proses, atau user pada sistem maupun resource disebut sistem... [cite: 336, 337]",
     "pilihan": {
-      "A": "Mutual Exclusion",
-      "B": "Hold and Wait",
-      "C": "No Preemption",
-      "D": "Circular Wait",
-      "E": "Context Switching"
+      "A": "Jaringan",
+      "B": "File",
+      "C": "Proteksi",
+      "D": "Penjadwalan",
+      "E": "I/O"
     },
-    "jawaban_benar": "E"
+    "jawaban_benar": "C"
   },
   {
     "id": 28,
-    "pertanyaan": "Algoritma yang digunakan dalam Sistem Operasi untuk mendeteksi atau menghindari terjadinya deadlock (Deadlock Avoidance) adalah...",
+    "pertanyaan": "Program yang menterjemahkan pernyataan perintah dari user dan mengeksekusinya (dikenal juga sebagai shell pada UNIX) disebut... [cite: 352, 353]",
     "pilihan": {
-      "A": "Algoritma Dijkstra (Shortest Path)",
-      "B": "Banker's Algorithm",
-      "C": "Round Robin",
-      "D": "First-Fit Algorithm",
-      "E": "Belady's Algorithm"
+      "A": "Kernel",
+      "B": "Device driver",
+      "C": "Command-line interpreter",
+      "D": "Compiler",
+      "E": "System call"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Sistem operasi mendeteksi kesalahan pada CPU, memori, perangkat I/O, atau program user guna... [cite: 366]",
+    "pilihan": {
+      "A": "Mempercepat kompilasi program",
+      "B": "Menjamin kebenaran dalam komputasi",
+      "C": "Membuat direktori secara otomatis",
+      "D": "Mengalokasikan memori utama",
+      "E": "Mengurangi penggunaan penyimpan sekunder"
     },
     "jawaban_benar": "B"
   },
   {
-    "id": 29,
-    "pertanyaan": "Pendekatan manajemen memori yang menggunakan perangkat keras (MMU) untuk memetakan alamat logis yang dihasilkan CPU ke alamat fisik di memori utama pada saat run-time (execution time) disebut...",
-    "pilihan": {
-      "A": "Address Binding",
-      "B": "Dynamic Loading",
-      "C": "Dynamic Linking",
-      "D": "Logical to Physical Address Translation",
-      "E": "Swapping"
-    },
-    "jawaban_benar": "D"
-  },
-  {
     "id": 30,
-    "pertanyaan": "Proses memindahkan data sebuah proses dari memori utama ke dalam ruang penyimpanan sekunder (disk) untuk sementara waktu agar proses lain dapat dimuat ke memori utama disebut...",
+    "pertanyaan": "Antarmuka yang disediakan antara program yang sedang berjalan dengan sistem operasi disebut... [cite: 374]",
     "pilihan": {
-      "A": "Paging",
-      "B": "Fragmentation",
-      "C": "Swapping",
-      "D": "Segmentation",
-      "E": "Interrupting"
+      "A": "Graphical User Interface (GUI)",
+      "B": "Command Interpreter",
+      "C": "System Call",
+      "D": "Process Control Block",
+      "E": "Hardware Interrupt"
     },
     "jawaban_benar": "C"
   },
   {
     "id": 31,
-    "pertanyaan": "Algoritma alokasi memori partisi dinamis yang mencari dan mengalokasikan ruang (hole) pertama yang ukurannya cukup besar untuk menampung proses adalah...",
+    "pertanyaan": "Berikut ini adalah metode yang umum digunakan untuk melewatkan parameter antara program dan sistem operasi, KECUALI... [cite: 376, 377, 378, 379]",
     "pilihan": {
-      "A": "Best-fit",
-      "B": "Worst-fit",
-      "C": "First-fit",
-      "D": "Next-fit",
-      "E": "Quick-fit"
+      "A": "Melewatkan parameter melalui register",
+      "B": "Menyimpan parameter pada tabel di memori dan melewatkan alamatnya di register",
+      "C": "Melakukan push parameter ke stack oleh program",
+      "D": "Menyimpan parameter pada disk secara permanen sebelum dieksekusi",
+      "E": "Melakukan pop parameter dari stack oleh sistem operasi"
     },
-    "jawaban_benar": "C"
+    "jawaban_benar": "D"
   },
   {
     "id": 32,
-    "pertanyaan": "Fenomena di mana ruang memori kosong tersebar di banyak lokasi dalam blok-blok kecil, namun jika dijumlahkan sebenarnya cukup untuk menampung suatu proses, disebut...",
+    "pertanyaan": "Mengakhiri (end), membatalkan (abort), dan membuat proses adalah contoh dari kategori system call untuk... [cite: 391, 394, 396]",
     "pilihan": {
-      "A": "Internal Fragmentation",
-      "B": "External Fragmentation",
-      "C": "Paging",
-      "D": "Segmentation",
-      "E": "Thrashing"
+      "A": "Manipulasi file",
+      "B": "Kontrol proses",
+      "C": "Manipulasi device",
+      "D": "Informasi lingkungan",
+      "E": "Komunikasi"
     },
     "jawaban_benar": "B"
   },
   {
     "id": 33,
-    "pertanyaan": "Solusi untuk mengatasi external fragmentation dengan memadatkan (compaction) blok memori tidak terpakai menjadi satu blok besar disebut...",
+    "pertanyaan": "Model komunikasi di mana informasi saling ditukarkan melalui fasilitas sistem operasi disebut model... [cite: 447, 448]",
     "pilihan": {
-      "A": "Garbage Collection",
-      "B": "Defragmentation (Compaction)",
-      "C": "Swapping",
-      "D": "Paging",
+      "A": "Message-passing",
+      "B": "Shared-memory",
+      "C": "Direct network",
+      "D": "Pipeline",
       "E": "Spooling"
-    },
-    "jawaban_benar": "B"
-  },
-  {
-    "id": 34,
-    "pertanyaan": "Fenomena sisa ruang kosong di dalam suatu partisi (blok) memori yang dialokasikan karena ukuran proses lebih kecil dari ukuran partisi blok tersebut disebut...",
-    "pilihan": {
-      "A": "Internal Fragmentation",
-      "B": "External Fragmentation",
-      "C": "Page Fault",
-      "D": "Thrashing",
-      "E": "Swapping"
     },
     "jawaban_benar": "A"
   },
   {
-    "id": 35,
-    "pertanyaan": "Skema manajemen memori yang mengizinkan ruang memori fisik suatu proses tidak harus berdekatan (non-contiguous) dengan membagi memori fisik menjadi blok-blok berukuran tetap (frames) dan memori logis menjadi blok-blok berukuran sama disebut...",
+    "id": 34,
+    "pertanyaan": "Model komunikasi di mana proses-proses menggunakan map memory untuk mengakses daerah di memori secara bersamaan disebut... [cite: 449]",
     "pilihan": {
-      "A": "Contiguous Allocation",
-      "B": "Paging",
-      "C": "Segmentation",
-      "D": "Swapping",
-      "E": "Dynamic Linking"
+      "A": "Message-passing",
+      "B": "Shared-memory",
+      "C": "Remote Procedure Call",
+      "D": "Command-line interpreter",
+      "E": "System call"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 35,
+    "pertanyaan": "Lingkungan yang nyaman bagi user untuk pengembangan dan eksekusi program disediakan oleh... [cite: 462, 463]",
+    "pilihan": {
+      "A": "Perangkat Keras",
+      "B": "System program",
+      "C": "Resident monitor",
+      "D": "PCB",
+      "E": "Hardware registers"
     },
     "jawaban_benar": "B"
   },
   {
     "id": 36,
-    "pertanyaan": "Dalam sistem Paging, blok berukuran tetap pada memori logis (logical memory) disebut dengan...",
+    "pertanyaan": "Sistem operasi yang dirancang sangat sederhana, tidak terbagi dalam modul yang baik, dan tidak memiliki proteksi hardware (dual-mode) adalah... [cite: 480, 481, 487]",
     "pilihan": {
-      "A": "Frame",
-      "B": "Segment",
-      "C": "Page",
-      "D": "Block",
-      "E": "Sector"
+      "A": "UNIX",
+      "B": "OS/2",
+      "C": "MS-DOS",
+      "D": "Solaris",
+      "E": "Windows NT"
     },
     "jawaban_benar": "C"
   },
   {
     "id": 37,
-    "pertanyaan": "Struktur data yang digunakan untuk menyimpan peta antara logical page dengan physical frame adalah...",
+    "pertanyaan": "Struktur original UNIX pada dasarnya hanya terdiri dari dua bagian utama, yaitu... [cite: 494, 495]",
     "pilihan": {
-      "A": "Page Table",
-      "B": "Process Control Block",
-      "C": "File Allocation Table",
-      "D": "Interrupt Vector",
-      "E": "Inverted Page Table"
+      "A": "Kernel dan program sistem",
+      "B": "Hardware dan GUI",
+      "C": "System call dan Device driver",
+      "D": "Shell dan compiler",
+      "E": "Command interpreter dan File system"
     },
     "jawaban_benar": "A"
   },
   {
     "id": 38,
-    "pertanyaan": "Cache perangkat keras khusus berkecepatan sangat tinggi yang digunakan di dalam MMU untuk mempercepat proses translasi alamat pada sistem paging adalah...",
+    "pertanyaan": "Struktur sistem operasi di mana fungsi dibagi menjadi komponen-komponen dengan pendekatan top-down memecah sistem menjadi beberapa tingkat disebut... [cite: 516, 517, 518]",
     "pilihan": {
-      "A": "L1 Cache",
-      "B": "Translation Look-aside Buffer (TLB)",
-      "C": "Register",
-      "D": "L2 Cache",
-      "E": "Program Counter"
+      "A": "Monolithic approach",
+      "B": "Layered approach (Pendekatan terlapis)",
+      "C": "Microkernel approach",
+      "D": "Virtual machine",
+      "E": "Symmetric clustering"
     },
     "jawaban_benar": "B"
   },
   {
     "id": 39,
-    "pertanyaan": "Skema manajemen memori yang mengalokasikan ruang memori berdasarkan sudut pandang logika programmer, dibagi-bagi berdasarkan modul/fungsi (misal: kode utama, variabel lokal, tumpukan), disebut...",
+    "pertanyaan": "Pada pendekatan terlapis, lapisan terbawah (layer 0) merupakan... [cite: 519]",
     "pilihan": {
-      "A": "Paging",
-      "B": "Swapping",
-      "C": "Segmentation",
-      "D": "Virtual Memory",
-      "E": "Contiguous Allocation"
+      "A": "User interface",
+      "B": "Sistem file",
+      "C": "Penjadwalan CPU",
+      "D": "Perangkat keras",
+      "E": "Manajemen memori"
     },
-    "jawaban_benar": "C"
+    "jawaban_benar": "D"
   },
   {
     "id": 40,
-    "pertanyaan": "Teknik yang memungkinkan eksekusi proses yang tidak sepenuhnya berada di memori utama (memori fisik bisa lebih kecil dari ukuran memori logis proses) disebut...",
+    "pertanyaan": "Dalam struktur sistem operasi THE, lapis-0 berfungsi sebagai... [cite: 524]",
     "pilihan": {
-      "A": "Caching",
-      "B": "Spooling",
-      "C": "Virtual Memory",
-      "D": "Multiprocessing",
-      "E": "Direct Memory Access (DMA)"
-    },
-    "jawaban_benar": "C"
-  },
-  {
-    "id": 41,
-    "pertanyaan": "Pendekatan paling umum untuk mengimplementasikan Virtual Memory adalah dengan menggunakan...",
-    "pilihan": {
-      "A": "Demand Paging",
-      "B": "Demand Segmentation",
-      "C": "Contiguous Allocation",
-      "D": "Dynamic Loading",
-      "E": "Static Linking"
-    },
-    "jawaban_benar": "A"
-  },
-  {
-    "id": 42,
-    "pertanyaan": "Saat CPU mencoba mengakses halaman (page) memori yang belum termuat di dalam memori fisik utama, akan terjadi interupsi yang disebut...",
-    "pilihan": {
-      "A": "Segmentation Fault",
-      "B": "Page Fault",
-      "C": "Stack Overflow",
-      "D": "Deadlock",
-      "E": "Hardware Interrupt"
+      "A": "User program",
+      "B": "Hardware",
+      "C": "Manajemen memori",
+      "D": "Penjadwalan CPU",
+      "E": "Operator-console device driver"
     },
     "jawaban_benar": "B"
   },
   {
-    "id": 43,
-    "pertanyaan": "Kondisi di mana Sistem Operasi menghabiskan sebagian besar waktunya hanya untuk melakukan swapping (page-in dan page-out) daripada mengeksekusi instruksi disebut...",
+    "id": 41,
+    "pertanyaan": "Konsep sistem operasi yang membuat ilusi untuk proses seolah-olah mengeksekusi prosesor dan memorinya sendiri yang terpisah dari proses lain adalah... [cite: 556, 557, 559]",
     "pilihan": {
-      "A": "Deadlock",
-      "B": "Thrashing",
-      "C": "Starvation",
-      "D": "Race Condition",
-      "E": "Belady's Anomaly"
+      "A": "Sistem Batch",
+      "B": "Mesin Virtual",
+      "C": "Time Sharing",
+      "D": "Layered System",
+      "E": "Asymmetric Multiprocessing"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 42,
+    "pertanyaan": "Salah satu keuntungan utama dari penggunaan Mesin Virtual adalah... [cite: 587, 588]",
+    "pilihan": {
+      "A": "Meningkatkan kecepatan eksekusi proses secara drastis",
+      "B": "Tidak perlu menggunakan hardware fisik sama sekali",
+      "C": "Menyediakan proteksi yang lengkap untuk sumber daya sistem dari mesin virtual lain",
+      "D": "Memungkinkan dua proses membagi memori cache secara langsung",
+      "E": "Mematikan sistem operasi host dengan aman"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 43,
+    "pertanyaan": "Kerugian utama dalam mengimplementasikan mesin virtual adalah... [cite: 591]",
+    "pilihan": {
+      "A": "Sangat mudah dirancang dan diubah",
+      "B": "Sangat sulit untuk mengimplementasikan kebutuhan dan duplikasi yang tepat pada mesin sebenarnya",
+      "C": "Tidak dapat digunakan untuk riset",
+      "D": "Semua mesin virtual harus menjalankan OS yang identik",
+      "E": "Mewajibkan penggunaan mainframe"
     },
     "jawaban_benar": "B"
   },
   {
     "id": 44,
-    "pertanyaan": "Algoritma penggantian halaman (Page Replacement Algorithm) yang mengganti halaman yang berada di memori paling lama (pertama kali masuk) adalah...",
+    "pertanyaan": "Komponen yang tergabung di dalam Java Virtual Machine (JVM) antara lain... [cite: 601]",
     "pilihan": {
-      "A": "Optimal",
-      "B": "LRU (Least Recently Used)",
-      "C": "FIFO (First-In, First-Out)",
-      "D": "LFU (Least Frequently Used)",
-      "E": "MFU (Most Frequently Used)"
+      "A": "Compiler, Linker, dan Loader",
+      "B": "Text editor, Macro, dan Assembler",
+      "C": "Class loader, class verifier, dan runtime interpreter",
+      "D": "Kernel, Shell, dan System Call",
+      "E": "Hardware, OS, dan User interface"
     },
     "jawaban_benar": "C"
   },
   {
     "id": 45,
-    "pertanyaan": "Fenomena pada algoritma FIFO di mana penambahan jumlah frame memori (kapasitas memori) justru meningkatkan jumlah Page Fault disebut...",
+    "pertanyaan": "Di dalam sistem operasi, program yang sedang dieksekusi disebut dengan... [cite: 623]",
     "pilihan": {
-      "A": "Thrashing",
-      "B": "Deadlock",
-      "C": "Belady's Anomaly",
-      "D": "Internal Fragmentation",
-      "E": "Race Condition"
+      "A": "Sistem call",
+      "B": "Kernel",
+      "C": "Proses",
+      "D": "Interupsi",
+      "E": "Routine"
     },
     "jawaban_benar": "C"
   },
   {
     "id": 46,
-    "pertanyaan": "Algoritma penggantian halaman yang mengganti halaman yang paling lama tidak digunakan (diakses) oleh CPU adalah...",
+    "pertanyaan": "Status yang menandakan bahwa suatu proses sedang dalam tahap dibuat (created) adalah status... [cite: 633]",
     "pilihan": {
-      "A": "FIFO",
-      "B": "Optimal",
-      "C": "LFU",
-      "D": "LRU (Least Recently Used)",
-      "E": "Second-chance"
+      "A": "Running",
+      "B": "Waiting",
+      "C": "Ready",
+      "D": "New",
+      "E": "Terminated"
     },
     "jawaban_benar": "D"
   },
   {
     "id": 47,
-    "pertanyaan": "Unit logis dari penyimpanan informasi di sistem operasi yang terdiri dari kumpulan data terkait yang diberi nama adalah...",
+    "pertanyaan": "Ketika suatu proses sedang dieksekusi secara nyata oleh CPU, maka proses tersebut berada pada status... [cite: 634]",
     "pilihan": {
-      "A": "Direktori",
-      "B": "Partisi",
-      "C": "File",
-      "D": "Sector",
-      "E": "Track"
+      "A": "New",
+      "B": "Running",
+      "C": "Waiting",
+      "D": "Ready",
+      "E": "Terminated"
     },
-    "jawaban_benar": "C"
+    "jawaban_benar": "B"
   },
   {
     "id": 48,
-    "pertanyaan": "Bagian nama file setelah titik (misal: .txt, .exe, .pdf) yang digunakan oleh sistem operasi untuk mengidentifikasi tipe atau format file disebut...",
+    "pertanyaan": "Apabila sebuah proses sedang menunggu selesainya suatu operasi I/O, maka proses tersebut berada pada status... [cite: 635]",
     "pilihan": {
-      "A": "Header",
-      "B": "Metadata",
-      "C": "File Extension (Ekstensi File)",
-      "D": "Magic Number",
-      "E": "File Identifier"
+      "A": "New",
+      "B": "Ready",
+      "C": "Waiting",
+      "D": "Running",
+      "E": "Terminated"
     },
     "jawaban_benar": "C"
   },
   {
     "id": 49,
-    "pertanyaan": "Metode akses file di mana informasi dalam file diproses secara berurutan, satu rekor demi satu rekor, sangat mirip dengan pita magnetik adalah...",
+    "pertanyaan": "Proses yang berada di dalam antrian karena menunggu jatah waktu dari CPU untuk diproses berada pada status... [cite: 636]",
     "pilihan": {
-      "A": "Direct Access",
-      "B": "Sequential Access",
-      "C": "Indexed Access",
-      "D": "Random Access",
-      "E": "Hash Access"
+      "A": "Waiting",
+      "B": "New",
+      "C": "Terminated",
+      "D": "Running",
+      "E": "Ready"
     },
-    "jawaban_benar": "B"
+    "jawaban_benar": "E"
   },
   {
     "id": 50,
-    "pertanyaan": "Struktur file system yang berisi informasi lokasi file-file dan memungkinkan pengguna untuk mengelompokkan file secara logis disebut...",
+    "pertanyaan": "Sistem Operasi merepresentasikan masing-masing proses dengan menggunakan sebuah blok struktur data yang disebut... [cite: 650, 651]",
     "pilihan": {
-      "A": "Sector",
-      "B": "Track",
-      "C": "Direktori (Directory/Folder)",
-      "D": "Volume",
-      "E": "Inode"
+      "A": "Memory Control Block (MCB)",
+      "B": "Job Queue",
+      "C": "Process Control Block (PCB)",
+      "D": "Translation Look-aside Buffer (TLB)",
+      "E": "Interrupt Vector Table"
     },
     "jawaban_benar": "C"
   },
   {
     "id": 51,
-    "pertanyaan": "Struktur direktori yang paling umum digunakan pada sistem operasi modern (seperti Windows dan Linux) yang berbentuk hierarki bercabang ke bawah adalah...",
+    "pertanyaan": "Informasi pada PCB yang berfungsi untuk menunjukkan alamat instruksi berikutnya yang akan dieksekusi oleh suatu proses adalah... [cite: 664]",
     "pilihan": {
-      "A": "Single-Level Directory",
-      "B": "Two-Level Directory",
-      "C": "Tree-Structured Directory",
-      "D": "Acyclic-Graph Directory",
-      "E": "General Graph Directory"
+      "A": "Program Counter",
+      "B": "Status Proses",
+      "C": "Informasi Penjadwalan",
+      "D": "Memory Limits",
+      "E": "List of Open Files"
     },
-    "jawaban_benar": "C"
+    "jawaban_benar": "A"
   },
   {
     "id": 52,
-    "pertanyaan": "Dalam sistem file Unix/Linux, struktur data yang menyimpan metadata tentang suatu file (seperti ukuran, hak akses, kepemilikan, alamat blok disk) tanpa menyimpan nama file itu sendiri adalah...",
+    "pertanyaan": "Semua proses yang masuk ke dalam sebuah sistem komputer akan diletakkan di dalam suatu list utama yang disebut... [cite: 694, 696]",
     "pilihan": {
-      "A": "File Allocation Table (FAT)",
-      "B": "Master File Table (MFT)",
-      "C": "Index Node (Inode)",
-      "D": "Superblock",
-      "E": "Boot Block"
+      "A": "Ready Queue",
+      "B": "Device Queue",
+      "C": "Job Queue",
+      "D": "Wait Queue",
+      "E": "Interrupt Queue"
     },
     "jawaban_benar": "C"
   },
   {
     "id": 53,
-    "pertanyaan": "Teknik di mana Sistem Operasi secara langsung mengakses disk I/O dengan menyalin antrean output dari program ke dalam sebuah buffer (biasanya pada disk sekunder) untuk dikirim ke perangkat cetak (printer) agar program bisa melanjutkan kerjanya disebut...",
+    "pertanyaan": "Antrian yang berisi proses-proses yang sudah berada di memori utama dan siap untuk dieksekusi oleh CPU disebut... [cite: 699]",
     "pilihan": {
-      "A": "Paging",
-      "B": "Spooling (Simultaneous Peripheral Operations On-Line)",
-      "C": "Swapping",
-      "D": "Caching",
-      "E": "Polling"
+      "A": "Device Queue",
+      "B": "Job Queue",
+      "C": "Ready Queue",
+      "D": "Suspended Queue",
+      "E": "Deadlock Queue"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 54,
+    "pertanyaan": "Deretan proses yang sedang menunggu peralatan I/O tertentu disebut dengan... [cite: 701]",
+    "pilihan": {
+      "A": "Ready queue",
+      "B": "Job queue",
+      "C": "CPU queue",
+      "D": "Device queue",
+      "E": "Memory queue"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 55,
+    "pertanyaan": "Penjadwal (scheduler) yang bertugas menyeleksi proses mana yang harus dimasukkan ke dalam ready queue adalah... [cite: 744]",
+    "pilihan": {
+      "A": "Short-term scheduler",
+      "B": "Long-term scheduler",
+      "C": "Medium-term scheduler",
+      "D": "CPU scheduler",
+      "E": "Dispatcher"
     },
     "jawaban_benar": "B"
   },
   {
-    "id": 54,
-    "pertanyaan": "Metode alokasi disk di mana file menempati sekumpulan blok yang berurutan secara fisik di atas piringan disk disebut...",
+    "id": 56,
+    "pertanyaan": "Sedangkan penjadwal yang bertugas memilih proses dari ready queue untuk segera diberikan jatah eksekusi CPU adalah... [cite: 745]",
     "pilihan": {
-      "A": "Linked Allocation",
-      "B": "Indexed Allocation",
-      "C": "Contiguous Allocation",
-      "D": "Chained Allocation",
-      "E": "Hashed Allocation"
+      "A": "Long-term scheduler",
+      "B": "Job scheduler",
+      "C": "Medium-term scheduler",
+      "D": "Short-term scheduler",
+      "E": "Memory manager"
     },
-    "jawaban_benar": "C"
+    "jawaban_benar": "D"
   },
   {
-    "id": 55,
-    "pertanyaan": "File system FAT32 merupakan kependekan dari...",
+    "id": 57,
+    "pertanyaan": "Proses-proses yang membutuhkan lebih banyak waktu untuk menjalankan I/O dibandingkan dengan melakukan komputasi disebut... [cite: 761]",
     "pilihan": {
-      "A": "File Allocation Table",
-      "B": "Fast Access Technology",
-      "C": "File Assessment Terminal",
-      "D": "Folder Allocation Type",
-      "E": "File Access Time"
+      "A": "I/O bound process",
+      "B": "CPU bound process",
+      "C": "Memory bound process",
+      "D": "Interactive process",
+      "E": "Batch process"
     },
     "jawaban_benar": "A"
   },
   {
-    "id": 56,
-    "pertanyaan": "Kumpulan blok data terkecil pada disk magnetik yang bisa dibaca/ditulis dalam satu operasi biasanya disebut...",
-    "pilihan": {
-      "A": "Track",
-      "B": "Cylinder",
-      "C": "Sector",
-      "D": "Platter",
-      "E": "Head"
-    },
-    "jawaban_benar": "C"
-  },
-  {
-    "id": 57,
-    "pertanyaan": "Waktu yang dibutuhkan oleh lengan read/write head untuk bergerak memposisikan dirinya ke track (silinder) yang tepat pada disk disebut...",
-    "pilihan": {
-      "A": "Rotational Latency",
-      "B": "Transfer Time",
-      "C": "Seek Time",
-      "D": "Access Time",
-      "E": "Response Time"
-    },
-    "jawaban_benar": "C"
-  },
-  {
     "id": 58,
-    "pertanyaan": "Algoritma penjadwalan disk yang melayani permintaan I/O dengan menggerakkan head ke silinder terdekat dari posisinya saat ini untuk meminimalkan pergerakan head adalah...",
+    "pertanyaan": "Sebaliknya, proses yang lebih banyak melakukan aktivitas komputasi sehingga waktu CPU burst yang dibutuhkan lebih lama disebut... [cite: 762]",
     "pilihan": {
-      "A": "FCFS (First-Come, First-Served)",
-      "B": "SSTF (Shortest Seek Time First)",
-      "C": "SCAN",
-      "D": "C-SCAN",
-      "E": "LOOK"
+      "A": "I/O bound process",
+      "B": "CPU bound process",
+      "C": "Hard real-time process",
+      "D": "Foreground process",
+      "E": "Swapped process"
     },
     "jawaban_benar": "B"
   },
   {
     "id": 59,
-    "pertanyaan": "Algoritma penjadwalan disk di mana head disk bergerak dari satu ujung disk ke ujung lainnya melayani permintaan secara berurutan saat melewatinya, kemudian berbalik arah (sering disebut algoritma elevator), adalah...",
+    "pertanyaan": "Penyimpanan status proses lama dan pemuatan (loading) status proses baru oleh sistem operasi saat CPU beralih ke proses lain disebut... [cite: 764, 765]",
     "pilihan": {
-      "A": "FCFS",
-      "B": "SSTF",
-      "C": "SCAN",
-      "D": "C-SCAN",
-      "E": "C-LOOK"
-    },
-    "jawaban_benar": "C"
-  },
-  {
-    "id": 60,
-    "pertanyaan": "Konsep menggabungkan beberapa hard disk fisik menjadi satu unit disk logis untuk tujuan meningkatkan kinerja dan/atau keandalan (redundansi data) disebut...",
-    "pilihan": {
-      "A": "Spooling",
-      "B": "Caching",
-      "C": "RAID (Redundant Array of Independent Disks)",
-      "D": "Virtual Disk",
-      "E": "Disk Formatting"
-    },
-    "jawaban_benar": "C"
-  },
-  {
-    "id": 61,
-    "pertanyaan": "Level RAID yang menduplikasi (mirroring) data secara identik pada dua atau lebih disk tanpa melakukan pemisahan (striping) data untuk keandalan maksimal adalah...",
-    "pilihan": {
-      "A": "RAID 0",
-      "B": "RAID 1",
-      "C": "RAID 2",
-      "D": "RAID 5",
-      "E": "RAID 6"
-    },
-    "jawaban_benar": "B"
-  },
-  {
-    "id": 62,
-    "pertanyaan": "Level RAID yang hanya membagi data di beberapa disk (striping) untuk mendapatkan kinerja tinggi namun sama sekali tidak memiliki redundansi (jika satu disk rusak, data hilang) adalah...",
-    "pilihan": {
-      "A": "RAID 0",
-      "B": "RAID 1",
-      "C": "RAID 3",
-      "D": "RAID 5",
-      "E": "RAID 10"
-    },
-    "jawaban_benar": "A"
-  },
-  {
-    "id": 63,
-    "pertanyaan": "Sinyal yang dikirimkan oleh hardware (seperti keyboard atau mouse) ke CPU untuk memberitahukan bahwa ada peristiwa (event) yang membutuhkan perhatian segera disebut...",
-    "pilihan": {
-      "A": "System Call",
-      "B": "Interrupt",
-      "C": "Exception",
-      "D": "Trap",
-      "E": "Polling"
-    },
-    "jawaban_benar": "B"
-  },
-  {
-    "id": 64,
-    "pertanyaan": "Interupsi yang dibangkitkan oleh perangkat lunak (software-generated interrupt) akibat suatu kesalahan (misalnya pembagian dengan angka nol) atau adanya permintaan layanan ke Sistem Operasi disebut...",
-    "pilihan": {
-      "A": "Hardware Interrupt",
-      "B": "Trap (atau Exception)",
-      "C": "Signal",
-      "D": "DMA",
-      "E": "Maskable Interrupt"
-    },
-    "jawaban_benar": "B"
-  },
-  {
-    "id": 65,
-    "pertanyaan": "Metode alternatif dari interupsi, di mana CPU secara terus-menerus mengecek status perangkat I/O (busy-waiting) untuk melihat apakah perangkat tersebut siap melayani disebut...",
-    "pilihan": {
-      "A": "Polling",
-      "B": "Interrupt-driven I/O",
-      "C": "Spooling",
-      "D": "Caching",
-      "E": "Buffering"
-    },
-    "jawaban_benar": "A"
-  },
-  {
-    "id": 66,
-    "pertanyaan": "Teknologi yang memungkinkan perangkat I/O berkecepatan tinggi mentransfer data dalam blok besar langsung ke memori utama (RAM) tanpa harus terus-menerus melibatkan CPU untuk setiap byte adalah...",
-    "pilihan": {
-      "A": "Spooling",
-      "B": "Polling",
-      "C": "Interrupt",
-      "D": "DMA (Direct Memory Access)",
-      "E": "Cache Memory"
+      "A": "System call",
+      "B": "Paging",
+      "C": "Swapping",
+      "D": "Context switch",
+      "E": "Interrupt handling"
     },
     "jawaban_benar": "D"
   },
   {
-    "id": 67,
-    "pertanyaan": "Area memori sementara yang digunakan untuk menyimpan data ketika proses pentransferan data berlangsung antara dua perangkat yang beroperasi dengan kecepatan atau ukuran blok yang berbeda disebut...",
+    "id": 60,
+    "pertanyaan": "Dalam pembentukan pohon proses, proses yang menciptakan proses baru dinamakan... dan proses yang baru diciptakan dinamakan... [cite: 787]",
     "pilihan": {
-      "A": "Cache",
-      "B": "Register",
-      "C": "Buffer",
-      "D": "Spool",
+      "A": "Master, Slave",
+      "B": "Parent, Child",
+      "C": "Server, Client",
+      "D": "Producer, Consumer",
+      "E": "Kernel, User"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 61,
+    "pertanyaan": "Pada sistem operasi UNIX, sebuah proses parent dapat membuat child proses dengan memanggil fungsi system call yang bernama... [cite: 798]",
+    "pilihan": {
+      "A": "create()",
+      "B": "exec()",
+      "C": "fork()",
+      "D": "wait()",
+      "E": "clone()"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 62,
+    "pertanyaan": "Sebuah proses akan meminta sistem operasi untuk menghapusnya setelah pernyataan terakhir dieksekusi, dengan menggunakan system call... [cite: 815]",
+    "pilihan": {
+      "A": "terminate",
+      "B": "end",
+      "C": "abort",
+      "D": "exit",
+      "E": "finish"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 63,
+    "pertanyaan": "System call yang digunakan oleh proses parent untuk menghentikan paksa eksekusi dari proses child-nya adalah... [cite: 823, 824]",
+    "pilihan": {
+      "A": "exit",
+      "B": "wait",
+      "C": "kill",
+      "D": "abort",
+      "E": "fork"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 64,
+    "pertanyaan": "Proses yang eksekusinya saling berpengaruh dengan proses lain dan saling berbagi data disebut... [cite: 829, 831]",
+    "pilihan": {
+      "A": "Independent process",
+      "B": "Terminated process",
+      "C": "Cooperating process",
+      "D": "Isolated process",
+      "E": "Zombie process"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 65,
+    "pertanyaan": "Pada masalah producer-consumer, proses yang tugasnya menghasilkan informasi untuk digunakan oleh proses lain disebut... [cite: 843]",
+    "pilihan": {
+      "A": "Consumer",
+      "B": "Producer",
+      "C": "Driver",
+      "D": "Compiler",
+      "E": "Buffer"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 66,
+    "pertanyaan": "Pada komunikasi langsung antar proses (Direct Communication), pengiriman pesan wajib... [cite: 901, 902]",
+    "pilihan": {
+      "A": "Menggunakan kotak surat (mailbox)",
+      "B": "Menyebutkan nama proses secara eksplisit (contoh: send(P, pesan))",
+      "C": "Melalui server perantara",
+      "D": "Menggunakan memori utama saja",
+      "E": "Memiliki ukuran pesan yang tak terbatas"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 67,
+    "pertanyaan": "Sedangkan pada komunikasi tak langsung (Indirect Communication), pengiriman dan penerimaan pesan dilakukan melalui suatu objek perantara yang disebut... [cite: 909, 910]",
+    "pilihan": {
+      "A": "Register",
+      "B": "Socket",
+      "C": "Mailbox (port)",
+      "D": "Shared variable",
       "E": "Thread"
     },
     "jawaban_benar": "C"
   },
   {
     "id": 68,
-    "pertanyaan": "Mekanisme Sistem Operasi untuk mengontrol akses program, proses, atau pengguna ke sumber daya komputer (sistem file, memori, dll) adalah definisi dari...",
+    "pertanyaan": "Kombinasi antara alamat IP dan port yang digunakan sebagai endpoint untuk komunikasi pada jaringan (seperti sistem client-server) disebut... [cite: 938, 939]",
     "pilihan": {
-      "A": "Synchronization",
-      "B": "Protection",
-      "C": "Deadlock avoidance",
-      "D": "Scheduling",
-      "E": "Virtualization"
-    },
-    "jawaban_benar": "B"
-  },
-  {
-    "id": 69,
-    "pertanyaan": "Matriks yang mengatur hubungan antara subjek (misalnya pengguna/proses) dengan objek (misalnya file) yang berisi hak akses (Read, Write, Execute) disebut...",
-    "pilihan": {
-      "A": "Access Matrix (Matriks Akses)",
-      "B": "Page Table",
-      "C": "File Allocation Table",
-      "D": "Interrupt Vector",
-      "E": "Translation Look-aside Buffer"
+      "A": "Socket",
+      "B": "Remote Procedure Call (RPC)",
+      "C": "Mailbox",
+      "D": "Thread",
+      "E": "Stub"
     },
     "jawaban_benar": "A"
   },
   {
-    "id": 70,
-    "pertanyaan": "Konsep di mana sistem komputer berjalan dalam suatu perangkat lunak yang mensimulasikan lingkungan hardware yang nyata, memungkinkan berbagai sistem operasi (Guest OS) berjalan di atas satu hardware fisik host disebut...",
+    "id": 69,
+    "pertanyaan": "Unit dasar pemanfaatan CPU yang di dalamnya berisi program counter, kumpulan register, dan ruang stack, disebut juga sebagai lightweight process (LWP) adalah... [cite: 1007]",
     "pilihan": {
-      "A": "Multiprogramming",
-      "B": "Virtual Memory",
-      "C": "Virtual Machines (Virtualisasi)",
-      "D": "Time-sharing",
-      "E": "Spooling"
+      "A": "Proses",
+      "B": "Thread",
+      "C": "Job",
+      "D": "Kernel",
+      "E": "Socket"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 70,
+    "pertanyaan": "Model multi thread di mana beberapa user level thread dipetakan ke satu kernel thread (cocok untuk sistem yang tidak mendukung kernel threads) disebut model... [cite: 1049]",
+    "pilihan": {
+      "A": "One-to-One",
+      "B": "Many-to-Many",
+      "C": "Many-to-One",
+      "D": "One-to-Many",
+      "E": "Peer-to-Peer"
     },
     "jawaban_benar": "C"
   }
