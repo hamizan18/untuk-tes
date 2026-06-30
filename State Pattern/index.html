@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Mode by Mingjan</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome untuk Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes popIn {
+            0% {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .animate-pop {
+            animation: popIn 0.3s ease-out forwards;
+        }
+    </style>
+</head>
+<!-- Latar Belakang Gradien Ditambahkan di sini (bg-gradient-to-br ...) -->
+
+<body
+    class="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-slate-100 min-h-screen flex flex-col items-center justify-center p-4 antialiased">
+
+    <!-- Judul Mata Kuliah (Bisa diklik & diedit langsung di browser berkat contenteditable="true") -->
+    <div class="mb-8 text-center animate-pop">
+        <h1
+            class="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400 tracking-tight">
+            Sistem Operasi
+            <!-- <span id="course-title" contenteditable="true"
+                class="border-b-2 border-dashed border-indigo-500/50 focus:outline-none focus:border-indigo-400 cursor-text px-2 py-1 rounded transition-colors hover:bg-white/5"
+                title="Klik untuk mengubah nama mata kuliah">
+                Pemrograman Web
+            </span> -->
+        </h1>
+        <p class="text-indigo-200/70 text-sm mt-2 font-medium tracking-widest uppercase">Ujian / Latihan Soal</p>
+    </div>
+
+    <!-- Konteiner Utama Kuis -->
+    <div
+        class="w-full max-w-2xl bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-2xl border border-slate-700/50 p-6 md:p-8 relative overflow-hidden transition-all duration-300">
+
+        <!-- Progress Bar & Status -->
+        <div class="flex justify-between items-center mb-6">
+            <span class="text-xs md:text-sm font-semibold tracking-wider text-indigo-400 uppercase">
+                Pertanyaan <span id="current-number">0</span> dari <span id="total-number">0</span>
+            </span>
+            <span id="score-display"
+                class="text-xs md:text-sm bg-indigo-900/50 text-indigo-300 px-3 py-1 rounded-full border border-indigo-700">
+                Skor: 0
+            </span>
+        </div>
+
+        <!-- Bar Progress Visual -->
+        <div class="w-full bg-slate-700 h-2 rounded-full mb-8 overflow-hidden">
+            <div id="progress-bar"
+                class="bg-gradient-to-r from-indigo-500 to-purple-500 h-full w-0 transition-all duration-500 ease-out">
+            </div>
+        </div>
+
+        <!-- Area Pertanyaan (Satu per Sesi) -->
+        <div id="quiz-box" class="animate-pop">
+            <h2 id="question-text" class="text-xl md:text-2xl font-bold mb-6 text-white leading-relaxed">
+                Memuat pertanyaan...
+            </h2>
+
+            <!-- Pilihan Jawaban A - E -->
+            <div id="options-container" class="space-y-4">
+                <!-- Tombol pilihan akan di-generate oleh JS -->
+            </div>
+        </div>
+
+        <!-- Feedback UI (Benar / Salah) -->
+        <div id="feedback-card" class="hidden mt-6 p-4 rounded-xl flex items-center gap-4 animate-pop border">
+            <div id="feedback-icon" class="text-2xl"></div>
+            <div>
+                <h3 id="feedback-title" class="font-bold text-lg"></h3>
+                <p id="feedback-desc" class="text-sm opacity-90"></p>
+            </div>
+        </div>
+
+        <!-- Tombol Navigasi -->
+        <div class="mt-8 flex justify-end">
+            <button id="next-btn"
+                class="hidden bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-indigo-500/20 transition-all duration-200 items-center gap-2 cursor-pointer">
+                <span>Pertanyaan Selanjutnya</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+
+        <!-- Layar Hasil Akhir -->
+        <div id="result-box" class="hidden text-center py-8 animate-pop">
+            <div class="text-6xl text-amber-400 mb-4 animate-bounce">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <h2 class="text-3xl font-bold text-white mb-2">Kuis Selesai!</h2>
+            <p class="text-slate-300 mb-6">Kerja bagus, berikut adalah hasil menilaimu:</p>
+            <div class="inline-block bg-slate-700/50 border border-slate-600 rounded-2xl p-6 mb-8">
+                <span
+                    class="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400"
+                    id="final-score">0</span>
+                <span class="text-xl text-slate-400"> / 100</span>
+            </div>
+            <div>
+                <button onclick="location.reload()"
+                    class="bg-gradient-to-r from-emerald-600 to-teal-500 hover:from-emerald-500 hover:to-teal-400 text-white font-semibold px-8 py-3 rounded-xl shadow-lg hover:shadow-emerald-500/20 transition-all cursor-pointer">
+                    <i class="fas fa-redo mr-2"></i> Coba Lagi
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Watermark Mizan -->
+    <div class="mt-10 text-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+        <p class="text-sm text-slate-400 font-medium tracking-wide">
+            Crafted with <i class="fas fa-heart text-rose-500 mx-1 animate-pulse"></i> by
+            <span
+                class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400 font-bold text-base uppercase tracking-widest ml-1">Hamizann [komisaris]</span>
+        </p>
+    </div>
+
+    <!-- JavaScript Logic (TIDAK DIUBAH - Tetap terhubung ke JSON) -->
+    <script>
+        let quizData = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let answered = false;
+
+        // Load data dari file JSON
+        async function loadQuizData() {
+            try {
+                const response = await fetch('soal.json');
+                if (!response.ok) throw new Error('Gagal memuat file JSON');
+                quizData = await response.json();
+
+                if (quizData.length === 0) {
+                    document.getElementById('question-text').innerText = "Tidak ada soal di dalam file JSON.";
+                    return;
+                }
+
+                initQuiz();
+            } catch (error) {
+                console.error(error);
+                document.getElementById('question-text').innerText = "Error: Pastikan Anda menjalankan web via Live Server atau local server agar bisa membaca file JSON.";
+            }
+        }
+
+        function initQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            document.getElementById('total-number').innerText = quizData.length;
+            showQuestion();
+        }
+
+        function showQuestion() {
+            answered = false;
+
+            document.getElementById('feedback-card').className = "hidden mt-6 p-4 rounded-xl flex items-center gap-4 animate-pop border";
+            document.getElementById('next-btn').classList.add('hidden');
+
+            const currentQuestion = quizData[currentQuestionIndex];
+
+            document.getElementById('current-number').innerText = currentQuestionIndex + 1;
+            const progressPercent = ((currentQuestionIndex + 1) / quizData.length) * 100;
+            document.getElementById('progress-bar').style.width = `${progressPercent}%`;
+            document.getElementById('score-display').innerText = `Skor: ${Math.round((score / quizData.length) * 100)}`;
+
+            document.getElementById('question-text').innerText = currentQuestion.pertanyaan;
+
+            const optionsContainer = document.getElementById('options-container');
+            optionsContainer.innerHTML = '';
+
+            Object.entries(currentQuestion.pilihan).forEach(([kunci, teks]) => {
+                const button = document.createElement('button');
+                button.className = "w-full text-left bg-slate-700/50 hover:bg-slate-700 text-slate-200 border border-slate-600 hover:border-indigo-500 p-4 rounded-xl transition-all duration-150 flex items-center gap-4 font-medium cursor-pointer group";
+                button.dataset.key = kunci;
+                button.innerHTML = `
+                    <span class="flex-none w-8 h-8 rounded-lg bg-slate-600 group-hover:bg-indigo-600 flex items-center justify-center text-sm font-bold text-white transition-colors">${kunci}</span>
+                    <span class="flex-1">${teks}</span>
+                `;
+                button.addEventListener('click', () => selectAnswer(kunci, button));
+                optionsContainer.appendChild(button);
+            });
+        }
+
+        function selectAnswer(kunciDipilih, tombolDipilih) {
+            if (answered) return;
+            answered = true;
+
+            const currentQuestion = quizData[currentQuestionIndex];
+            const jawabanBenar = currentQuestion.jawaban_benar;
+            const semuaTombol = document.querySelectorAll('#options-container button');
+
+            semuaTombol.forEach(btn => btn.classList.replace('cursor-pointer', 'cursor-not-allowed'));
+
+            const feedbackCard = document.getElementById('feedback-card');
+            const feedbackIcon = document.getElementById('feedback-icon');
+            const feedbackTitle = document.getElementById('feedback-title');
+            const feedbackDesc = document.getElementById('feedback-desc');
+
+            if (kunciDipilih === jawabanBenar) {
+                score++;
+                tombolDipilih.className = "w-full text-left bg-emerald-950/40 text-emerald-300 border-2 border-emerald-500 p-4 rounded-xl transition-all duration-150 flex items-center gap-4 font-medium shadow-[0_0_15px_rgba(16,185,129,0.2)]";
+                tombolDipilih.querySelector('span').className = "flex-none w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center text-sm font-bold text-white";
+
+                feedbackCard.classList.remove('hidden');
+                feedbackCard.classList.add('bg-emerald-950/50', 'border-emerald-500', 'text-emerald-400');
+                feedbackIcon.innerHTML = '<i class="fas fa-check-circle"></i>';
+                feedbackTitle.innerText = "Jawaban Benar!";
+                feedbackDesc.innerText = `Keren! Jawaban yang tepat memang opsi ${jawabanBenar}.`;
+            } else {
+                tombolDipilih.className = "w-full text-left bg-rose-950/40 text-rose-300 border-2 border-rose-500 p-4 rounded-xl transition-all duration-150 flex items-center gap-4 font-medium";
+                tombolDipilih.querySelector('span').className = "flex-none w-8 h-8 rounded-lg bg-rose-500 flex items-center justify-center text-sm font-bold text-white";
+
+                semuaTombol.forEach(btn => {
+                    if (btn.dataset.key === jawabanBenar) {
+                        btn.className = "w-full text-left bg-emerald-950/20 text-emerald-400 border border-emerald-600/50 p-4 rounded-xl flex items-center gap-4 font-medium";
+                    }
+                });
+
+                feedbackCard.classList.remove('hidden');
+                feedbackCard.classList.add('bg-rose-950/50', 'border-rose-500', 'text-rose-400');
+                feedbackIcon.innerHTML = '<i class="fas fa-times-circle"></i>';
+                feedbackTitle.innerText = "Jawaban Salah!";
+                feedbackDesc.innerText = `Opps, opsi yang benar adalah ${jawabanBenar}.`;
+            }
+
+            const nextBtn = document.getElementById('next-btn');
+            nextBtn.classList.remove('hidden');
+            nextBtn.classList.add('flex');
+
+            document.getElementById('score-display').innerText = `Skor: ${Math.round((score / quizData.length) * 100)}`;
+        }
+
+        document.getElementById('next-btn').addEventListener('click', () => {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < quizData.length) {
+                showQuestion();
+            } else {
+                showResult();
+            }
+        });
+
+        function showResult() {
+            document.getElementById('quiz-box').classList.add('hidden');
+            document.getElementById('next-btn').classList.add('hidden');
+            document.getElementById('feedback-card').classList.add('hidden');
+
+            const finalScore = Math.round((score / quizData.length) * 100);
+            document.getElementById('final-score').innerText = finalScore;
+            document.getElementById('result-box').classList.remove('hidden');
+        }
+
+        window.onload = loadQuizData;
+    </script>
+</body>
+
+</html>

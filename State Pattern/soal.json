@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Apa kepanjangan dari prinsip SOLID dalam desain berorientasi objek?",
+    "pilihan": {
+      "A": "Simple, Open, Logical, Interface, Dynamic",
+      "B": "Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion",
+      "C": "System, Object, Loop, Inheritance, Database",
+      "D": "Static, Overload, Local, Instance, Data",
+      "E": "Single Responsibility, Object/Class, Logical Segregation, Interface, Dynamic Inversion"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Siapakah tokoh rekayasa perangkat lunak yang pertama kali mempopulerkan prinsip-prinsip yang kemudian dikenal sebagai SOLID?",
+    "pilihan": {
+      "A": "Erich Gamma",
+      "B": "Martin Fowler",
+      "C": "Robert C. Martin (Uncle Bob)",
+      "D": "Linus Torvalds",
+      "E": "Kent Beck"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Prinsip Single Responsibility (SRP) menyatakan bahwa...",
+    "pilihan": {
+      "A": "Sebuah kelas harus memiliki satu dan hanya satu alasan untuk berubah",
+      "B": "Satu kelas hanya boleh memiliki satu metode",
+      "C": "Sebuah program hanya boleh memiliki satu kelas utama",
+      "D": "Sebuah antarmuka hanya boleh diimplementasikan oleh satu kelas",
+      "E": "Satu pengembang hanya bertanggung jawab pada satu kelas"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Anti-pattern apa yang paling sering muncul jika kita melanggar prinsip Single Responsibility (SRP)?",
+    "pilihan": {
+      "A": "Spaghetti Code",
+      "B": "God Object (Kelas raksasa yang melakukan segalanya)",
+      "C": "Dead Code",
+      "D": "Race Condition",
+      "E": "Callback Hell"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Prinsip Open/Closed (OCP) menyatakan bahwa entitas perangkat lunak harus...",
+    "pilihan": {
+      "A": "Terbuka untuk diakses publik, tertutup untuk akses privat",
+      "B": "Terbuka untuk modifikasi, tertutup untuk ekstensi",
+      "C": "Terbuka untuk ekstensi, tertutup untuk modifikasi",
+      "D": "Terbuka untuk diwarisi, tertutup untuk diinstansiasi",
+      "E": "Terbuka untuk open-source, tertutup untuk komersial"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Mekanisme utama dalam Object-Oriented Programming (OOP) yang digunakan untuk mengimplementasikan Open/Closed Principle adalah...",
+    "pilihan": {
+      "A": "Polymorphism dan Abstraction (Interface/Abstract Class)",
+      "B": "Encapsulation dan Data Hiding",
+      "C": "Multiple Inheritance",
+      "D": "Static Typing",
+      "E": "Global Variables"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Prinsip Liskov Substitution (LSP) berfokus pada...",
+    "pilihan": {
+      "A": "Memastikan semua variabel bersifat privat",
+      "B": "Memastikan subtipe (kelas turunan) harus dapat menggantikan supertipe (kelas dasar) tanpa merusak kebenaran program",
+      "C": "Mengganti semua inheritance dengan composition",
+      "D": "Memastikan antarmuka tidak memiliki lebih dari 3 metode",
+      "E": "Mengurangi penggunaan memori pada kelas turunan"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Contoh klasik pelanggaran Liskov Substitution Principle (LSP) dalam pemodelan OOP adalah...",
+    "pilihan": {
+      "A": "Membuat kelas Mobil turunan dari Kendaraan",
+      "B": "Membuat kelas Persegi (Square) turunan dari Persegi Panjang (Rectangle)",
+      "C": "Membuat kelas Kucing turunan dari Hewan",
+      "D": "Membuat antarmuka IPrintable",
+      "E": "Membuat metode abstrak di kelas dasar"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Prinsip Interface Segregation (ISP) menyarankan agar...",
+    "pilihan": {
+      "A": "Klien tidak boleh dipaksa bergantung pada antarmuka (interface) yang tidak mereka gunakan",
+      "B": "Semua kelas harus mengimplementasikan setidaknya satu antarmuka",
+      "C": "Setiap kelas hanya boleh memiliki satu antarmuka",
+      "D": "Antarmuka tidak boleh digunakan dalam bahasa pemrograman modern",
+      "E": "Antarmuka harus digabung menjadi satu antarmuka besar agar lebih rapi"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Istilah untuk antarmuka yang melanggar ISP karena memiliki terlalu banyak metode yang tidak berdekatan secara fungsional adalah...",
+    "pilihan": {
+      "A": "Thin Interface",
+      "B": "Fat Interface (atau Polluted Interface)",
+      "C": "Segregated Interface",
+      "D": "Mock Interface",
+      "E": "Abstract Interface"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Prinsip Dependency Inversion (DIP) menyatakan dua hal. Yang pertama adalah modul tingkat tinggi tidak boleh bergantung pada modul tingkat rendah. Keduanya harus bergantung pada...",
+    "pilihan": {
+      "A": "Kelas Konkret",
+      "B": "Variabel Global",
+      "C": "Abstraksi",
+      "D": "Fungsi Statis",
+      "E": "Database"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Bagian kedua dari prinsip Dependency Inversion (DIP) menyatakan bahwa...",
+    "pilihan": {
+      "A": "Abstraksi harus bergantung pada detail",
+      "B": "Detail (implementasi konkret) harus bergantung pada abstraksi",
+      "C": "Abstraksi tidak boleh digunakan dalam OOP",
+      "D": "Detail harus bergantung pada detail lainnya",
+      "E": "Abstraksi dan detail tidak boleh saling bergantung sama sekali"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Teknik atau pola arsitektur yang sering digunakan untuk mengimplementasikan Dependency Inversion Principle secara praktis di framework modern disebut...",
+    "pilihan": {
+      "A": "Garbage Collection",
+      "B": "Dependency Injection (DI) atau Inversion of Control (IoC)",
+      "C": "Object Relational Mapping (ORM)",
+      "D": "Model-View-Controller (MVC)",
+      "E": "Continuous Integration (CI)"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Tujuan utama dari penerapan prinsip-prinsip SOLID secara keseluruhan dalam pengembangan perangkat lunak adalah untuk menciptakan sistem yang...",
+    "pilihan": {
+      "A": "Mengeksekusi kode lebih cepat (optimasi performa murni)",
+      "B": "Membutuhkan memori lebih sedikit",
+      "C": "Lebih mudah dipelihara (maintainable), dipahami, dan dikembangkan seiring waktu",
+      "D": "Sama sekali tidak memiliki bug",
+      "E": "Dapat ditulis dengan jumlah baris kode yang paling sedikit"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Dalam konteks SRP, keterkaitan fungsionalitas yang kuat di dalam satu kelas yang sama disebut dengan...",
+    "pilihan": {
+      "A": "Coupling",
+      "B": "Inheritance",
+      "C": "Polymorphism",
+      "D": "Cohesion",
+      "E": "Abstraction"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Ketergantungan yang kuat antara satu kelas dengan kelas konkret lainnya (yang dihindari oleh DIP) disebut dengan istilah...",
+    "pilihan": {
+      "A": "Loose Coupling",
+      "B": "Tight Coupling",
+      "C": "High Cohesion",
+      "D": "Encapsulation",
+      "E": "Aggregation"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Apa yang dimaksud dengan 'Design Pattern' (Pola Desain) dalam rekayasa perangkat lunak?",
+    "pilihan": {
+      "A": "Kode template yang bisa langsung disalin-tempel dan dijalankan",
+      "B": "Aturan sintaks baku dari suatu bahasa pemrograman",
+      "C": "Solusi umum yang dapat digunakan kembali untuk masalah yang sering terjadi dalam konteks desain perangkat lunak",
+      "D": "Alat (tools) untuk membuat diagram UML secara otomatis",
+      "E": "Paradigma pemrograman selain prosedural dan berorientasi objek"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Buku legendaris 'Design Patterns: Elements of Reusable Object-Oriented Software' yang mendefinisikan 23 pola dasar ditulis oleh empat penulis yang dijuluki...",
+    "pilihan": {
+      "A": "The Founding Fathers",
+      "B": "Gang of Four (GoF)",
+      "C": "The Agile Alliance",
+      "D": "The SOLID Team",
+      "E": "The Architects"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Design Patterns menurut GoF dibagi menjadi 3 kategori utama, yaitu...",
+    "pilihan": {
+      "A": "Creational, Structural, dan Behavioral",
+      "B": "Logical, Physical, dan Abstract",
+      "C": "Model, View, dan Controller",
+      "D": "Frontend, Backend, dan Database",
+      "E": "Procedural, Functional, dan Object-Oriented"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Kategori pola desain yang berfokus pada mekanisme pembuatan objek secara fleksibel dan aman (menyembunyikan logika pembuatan) adalah...",
+    "pilihan": {
+      "A": "Structural Patterns",
+      "B": "Behavioral Patterns",
+      "C": "Architectural Patterns",
+      "D": "Creational Patterns",
+      "E": "Concurrency Patterns"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 21,
+    "pertanyaan": "Kategori pola desain yang berfokus pada bagaimana objek dan kelas disusun menjadi struktur yang lebih besar dengan menjaga fleksibilitas dan efisiensi adalah...",
+    "pilihan": {
+      "A": "Creational Patterns",
+      "B": "Structural Patterns",
+      "C": "Behavioral Patterns",
+      "D": "Architectural Patterns",
+      "E": "Testing Patterns"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Kategori pola desain yang berfokus pada algoritma dan penugasan tanggung jawab antar objek serta komunikasi antar mereka adalah...",
+    "pilihan": {
+      "A": "Behavioral Patterns",
+      "B": "Structural Patterns",
+      "C": "Creational Patterns",
+      "D": "Database Patterns",
+      "E": "UI Patterns"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Pola desain yang memastikan sebuah kelas hanya memiliki satu instansi (instance) dan menyediakan titik akses global ke instansi tersebut adalah...",
+    "pilihan": {
+      "A": "Factory Method",
+      "B": "Builder",
+      "C": "Prototype",
+      "D": "Singleton",
+      "E": "Adapter"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Pola desain apa yang digunakan untuk membuat objek kompleks langkah demi langkah, sehingga konstruksi yang sama dapat menghasilkan representasi yang berbeda?",
+    "pilihan": {
+      "A": "Abstract Factory",
+      "B": "Builder",
+      "C": "Decorator",
+      "D": "Facade",
+      "E": "Strategy"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Pola desain yang memungkinkan penyalinan (cloning) objek yang sudah ada tanpa membuat kode bergantung pada kelas objek tersebut adalah...",
+    "pilihan": {
+      "A": "Singleton",
+      "B": "Observer",
+      "C": "Prototype",
+      "D": "Memento",
+      "E": "Command"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Pola desain Structural yang bertindak sebagai jembatan antara dua antarmuka yang tidak kompatibel agar dapat bekerja sama adalah...",
+    "pilihan": {
+      "A": "Facade",
+      "B": "Adapter",
+      "C": "Proxy",
+      "D": "Composite",
+      "E": "Flyweight"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Jika Anda ingin menambahkan perilaku atau tanggung jawab baru ke suatu objek secara dinamis tanpa mengubah kodenya, pola Structural apa yang paling tepat?",
+    "pilihan": {
+      "A": "Decorator",
+      "B": "Template Method",
+      "C": "Bridge",
+      "D": "State",
+      "E": "Mediator"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Pola desain yang menyediakan antarmuka terpadu (simplified interface) ke serangkaian antarmuka lain di dalam suatu subsistem yang kompleks disebut...",
+    "pilihan": {
+      "A": "Adapter",
+      "B": "Observer",
+      "C": "Proxy",
+      "D": "Facade",
+      "E": "Composite"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Pola desain yang memberikan objek pengganti (placeholder) untuk mengontrol akses ke objek aslinya (misalnya untuk lazy loading atau kontrol akses) adalah...",
+    "pilihan": {
+      "A": "Facade",
+      "B": "Proxy",
+      "C": "Decorator",
+      "D": "Strategy",
+      "E": "Iterator"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Pola Behavioral yang mendefinisikan hubungan satu-ke-banyak sehingga jika satu objek berubah status, semua objek yang bergantung padanya akan diberitahu secara otomatis (seperti Pub-Sub) adalah...",
+    "pilihan": {
+      "A": "Command",
+      "B": "State",
+      "C": "Observer",
+      "D": "Mediator",
+      "E": "Visitor"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 31,
+    "pertanyaan": "Pola desain yang memungkinkan Anda mengubah algoritma pada saat runtime dengan mengenkapsulasi sekumpulan algoritma dan membuatnya dapat saling dipertukarkan disebut...",
+    "pilihan": {
+      "A": "Strategy",
+      "B": "Template Method",
+      "C": "State",
+      "D": "Memento",
+      "E": "Chain of Responsibility"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 32,
+    "pertanyaan": "Pola desain yang merangkum sebuah permintaan (request) sebagai sebuah objek, sehingga memungkinkan Anda melakukan parameterisasi operasi, antrean (queue), dan fitur Undo/Redo adalah...",
+    "pilihan": {
+      "A": "Observer",
+      "B": "Command",
+      "C": "Iterator",
+      "D": "Prototype",
+      "E": "Abstract Factory"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 33,
+    "pertanyaan": "Pola desain yang memungkinkan penelusuran elemen-elemen di dalam sebuah koleksi (list, stack, tree) tanpa mengekspos struktur internalnya adalah...",
+    "pilihan": {
+      "A": "Iterator",
+      "B": "Visitor",
+      "C": "Composite",
+      "D": "Flyweight",
+      "E": "Mediator"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 34,
+    "pertanyaan": "Pola yang mendefinisikan kerangka (skeleton) algoritma dalam metode dasar, tetapi membiarkan beberapa tahapan diimplementasikan oleh subkelas tanpa mengubah struktur algoritma, adalah...",
+    "pilihan": {
+      "A": "Strategy",
+      "B": "Template Method",
+      "C": "Command",
+      "D": "State",
+      "E": "Decorator"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 35,
+    "pertanyaan": "Pola desain yang mengurangi ketergantungan antar objek dengan memusatkan komunikasi mereka melalui sebuah objek sentral (misalnya menara pengawas lalu lintas udara) disebut...",
+    "pilihan": {
+      "A": "Observer",
+      "B": "Facade",
+      "C": "Mediator",
+      "D": "Adapter",
+      "E": "Proxy"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 36,
+    "pertanyaan": "Pola desain yang digunakan untuk menangkap dan menyimpan status internal objek saat ini, sehingga objek tersebut dapat dikembalikan (restore) ke status itu nanti tanpa melanggar enkapsulasi adalah...",
+    "pilihan": {
+      "A": "Memento",
+      "B": "State",
+      "C": "Command",
+      "D": "Builder",
+      "E": "Singleton"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 37,
+    "pertanyaan": "Apa tujuan utama dari pola desain Flyweight?",
+    "pilihan": {
+      "A": "Mengubah algoritma secara dinamis",
+      "B": "Membuat antarmuka tunggal untuk subsistem kompleks",
+      "C": "Meminimalkan penggunaan memori dengan membagikan sebanyak mungkin data yang sama di antara banyak objek serupa",
+      "D": "Memastikan hanya ada satu objek yang berjalan",
+      "E": "Mengeksekusi perintah dalam urutan tertentu"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 38,
+    "pertanyaan": "Pola desain yang menyusun objek menjadi struktur pohon (tree) untuk merepresentasikan hierarki bagian-keseluruhan (part-whole) sehingga klien memperlakukan objek individu dan komposisi objek secara seragam adalah...",
+    "pilihan": {
+      "A": "Composite",
+      "B": "Decorator",
+      "C": "Proxy",
+      "D": "Adapter",
+      "E": "Bridge"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 39,
+    "pertanyaan": "Apa maksud atau tujuan utama dari State Design Pattern?",
+    "pilihan": {
+      "A": "Memisahkan antarmuka dari implementasi",
+      "B": "Memungkinkan objek mengubah perilakunya ketika status internalnya berubah, sehingga objek seolah-olah mengubah kelasnya",
+      "C": "Menyimpan riwayat perubahan objek untuk proses undo",
+      "D": "Membuat banyak instance dari satu kelas dengan cepat",
+      "E": "Memberitahu objek lain jika terjadi perubahan nilai variabel"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 40,
+    "pertanyaan": "State Pattern diklasifikasikan ke dalam kategori desain pola...",
+    "pilihan": {
+      "A": "Creational",
+      "B": "Structural",
+      "C": "Architectural",
+      "D": "Behavioral",
+      "E": "Concurrency"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 41,
+    "pertanyaan": "Masalah utama (code smell) dalam pemrograman yang paling umum diselesaikan atau direfaktor menggunakan State Pattern adalah...",
+    "pilihan": {
+      "A": "Penggunaan banyak variabel global",
+      "B": "Banyaknya parameter dalam satu fungsi (Long Parameter List)",
+      "C": "Pernyataan kondisional (if-else atau switch-case) raksasa yang mengatur perilaku berdasarkan tipe/status",
+      "D": "Kurangnya dokumentasi pada fungsi kritis",
+      "E": "Ketergantungan langsung pada database"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 42,
+    "pertanyaan": "Dalam anatomi State Pattern, kelas yang memelihara referensi ke instance State saat ini dan mendelegasikan pekerjaan ke objek State tersebut disebut...",
+    "pilihan": {
+      "A": "State Interface",
+      "B": "Concrete State",
+      "C": "Context",
+      "D": "Client",
+      "E": "Invoker"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 43,
+    "pertanyaan": "Dalam State Pattern, antarmuka (interface) atau kelas abstrak yang mendefinisikan metode-metode yang spesifik terhadap setiap kemungkinan status disebut...",
+    "pilihan": {
+      "A": "Context",
+      "B": "State",
+      "C": "Action",
+      "D": "Handler",
+      "E": "Command"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 44,
+    "pertanyaan": "Kelas-kelas yang mengimplementasikan antarmuka State dan menyediakan perilaku nyata yang diasosiasikan dengan status tertentu disebut...",
+    "pilihan": {
+      "A": "Context States",
+      "B": "Abstract States",
+      "C": "Sub States",
+      "D": "Concrete States",
+      "E": "Proxy States"
+    },
+    "jawaban_benar": "D"
+  },
+  {
+    "id": 45,
+    "pertanyaan": "Dalam implementasi State Pattern, siapakah yang dapat bertanggung jawab untuk memicu transisi (perubahan status)?",
+    "pilihan": {
+      "A": "Hanya kelas Context",
+      "B": "Hanya Concrete States",
+      "C": "Kelas Context atau Concrete States, tergantung desain implementasi yang dipilih",
+      "D": "Hanya Client atau pengguna akhir",
+      "E": "Sistem Operasi"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 46,
+    "pertanyaan": "Analogi dunia nyata mana yang paling cocok untuk menggambarkan penerapan State Pattern?",
+    "pilihan": {
+      "A": "Sebuah restoran dengan pelayan, koki, dan pelanggan",
+      "B": "Mesin penjual otomatis (Vending Machine) yang perilakunya berbeda saat memiliki koin, tidak ada koin, atau kehabisan barang",
+      "C": "Sebuah buku resep masakan yang dibaca berulang-ulang",
+      "D": "Banyak colokan listrik yang digabungkan ke satu adaptor",
+      "E": "Layanan kurir pengiriman barang"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 47,
+    "pertanyaan": "Selain Vending Machine, kasus penggunaan yang sangat umum dan menjadi contoh klasik dalam buku GoF untuk State Pattern adalah...",
+    "pilihan": {
+      "A": "Menggambar bentuk (Shape drawing) di UI",
+      "B": "Proses parsing XML",
+      "C": "Siklus hidup koneksi TCP (TCP Connection: Established, Listening, Closed)",
+      "D": "Pengaturan database connection pool",
+      "E": "Menyusun file log secara berurutan"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 48,
+    "pertanyaan": "Secara struktur (diagram kelas), State Pattern sangat mirip dengan pola desain lain. Pola apa yang dimaksud?",
+    "pilihan": {
+      "A": "Observer",
+      "B": "Template Method",
+      "C": "Strategy",
+      "D": "Decorator",
+      "E": "Factory"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 49,
+    "pertanyaan": "Walaupun secara struktur mirip, perbedaan utama (intent) antara State dan Strategy adalah...",
+    "pilihan": {
+      "A": "Strategy digunakan untuk objek hardware, State untuk software",
+      "B": "Dalam Strategy, algoritma independen dan klien yang memilihnya; Dalam State, status-status tersebut sadar satu sama lain dan bisa melakukan transisi sendiri",
+      "C": "State lebih cepat dieksekusi daripada Strategy",
+      "D": "Strategy menggunakan kelas abstrak, State menggunakan interface murni",
+      "E": "Tidak ada perbedaan, keduanya adalah nama yang berbeda untuk hal yang sama"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 50,
+    "pertanyaan": "Bagaimana objek Context dalam State Pattern berinteraksi dengan objek State-nya?",
+    "pilihan": {
+      "A": "Melalui Inheritance (Pewarisan)",
+      "B": "Melalui Dependency Injection di setiap pemanggilan metode",
+      "C": "Melalui Composition, di mana Context memegang instance State dan mendelegasikan panggilan ke instance tersebut",
+      "D": "Melalui file konfigurasi eksternal",
+      "E": "Melalui variabel global"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 51,
+    "pertanyaan": "Apa kelebihan dari State Pattern jika dihubungkan dengan prinsip SOLID, khususnya Open/Closed Principle (OCP)?",
+    "pilihan": {
+      "A": "Kita bisa menambahkan class Context baru tanpa mengubah class State",
+      "B": "Kita bisa menambahkan status (Concrete State) baru dengan membuat kelas baru tanpa menyentuh kode status yang ada atau mengubah Context secara besar-besaran",
+      "C": "Kode akan otomatis menjadi lebih pendek secara total baris",
+      "D": "Memungkinkan Context memiliki lebih dari 10 metode",
+      "E": "Menghilangkan kebutuhan akan tipe data abstrak"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 52,
+    "pertanyaan": "Kapan penerapan State Pattern dianggap sebagai 'Overkill' (terlalu berlebihan) dan sebaiknya dihindari?",
+    "pilihan": {
+      "A": "Ketika state machine memiliki puluhan transisi",
+      "B": "Ketika logika status sangat sedikit, jarang berubah, dan kondisinya sederhana",
+      "C": "Ketika ada lebih dari tiga status yang berbeda",
+      "D": "Ketika menggunakan bahasa pemrograman Java atau C#",
+      "E": "Ketika objek Context berumur panjang"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 53,
+    "pertanyaan": "Jika Concrete State bertanggung jawab mengubah (transisi) status pada objek Context, apa yang biasanya harus ia ketahui?",
+    "pilihan": {
+      "A": "Detail database",
+      "B": "Password sistem",
+      "C": "Referensi (instance) dari objek Context tersebut",
+      "D": "Semua kelas lain di dalam aplikasi",
+      "E": "Variabel environment OS"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 54,
+    "pertanyaan": "Dalam State pattern, jika sebuah Concrete State tidak memiliki variabel instan (stateless) dan hanya mendefinisikan perilaku, maka ia sering dikombinasikan dengan pola desain apa untuk menghemat memori?",
+    "pilihan": {
+      "A": "Singleton (sehingga hanya satu instance dari status tersebut yang dibagi-pakai)",
+      "B": "Builder",
+      "C": "Command",
+      "D": "Observer",
+      "E": "Mediator"
+    },
+    "jawaban_benar": "A"
+  },
+  {
+    "id": 55,
+    "pertanyaan": "Keuntungan utama dari State Pattern adalah lokalisasi perilaku. Apa maksudnya?",
+    "pilihan": {
+      "A": "Kode dapat dijalankan di berbagai zona waktu",
+      "B": "Aplikasi akan otomatis diterjemahkan ke bahasa lokal pengguna",
+      "C": "Perilaku yang spesifik untuk status tertentu ditempatkan di dalam satu kelas yang sama (kelas Concrete State-nya)",
+      "D": "Semua metode digabung dalam satu file lokal",
+      "E": "Penyimpanan data diarahkan ke hard drive lokal"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 56,
+    "pertanyaan": "State Pattern dan Command Pattern dapat memecah kode besar menjadi objek yang lebih kecil. Perbedaannya, objek Command biasanya mewakili sebuah _________, sedangkan objek State mewakili sebuah _________.",
+    "pilihan": {
+      "A": "Algoritma; Struktur Data",
+      "B": "Aksi/Permintaan; Kondisi/Status internal sistem",
+      "C": "Kelas Dasar; Subkelas",
+      "D": "Pengguna; Server",
+      "E": "Event; Listener"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 57,
+    "pertanyaan": "Pada saat instansiasi kelas Context, apa yang biasanya harus dilakukan terkait dengan objek State?",
+    "pilihan": {
+      "A": "Mendelete semua state",
+      "B": "Context tidak memerlukan objek State sampai metode pertamanya dipanggil",
+      "C": "Context harus diberikan atau menetapkan Status Awal (Initial State)",
+      "D": "Semua Concrete State harus dimuat ke memori secara bersamaan menggunakan array",
+      "E": "Context harus mengunci (lock) thread"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 58,
+    "pertanyaan": "Jika sebuah aksi tidak valid (tidak diizinkan) pada status tertentu dalam implementasi State Pattern, pendekatan terbaik yang dapat dilakukan oleh Concrete State adalah...",
+    "pilihan": {
+      "A": "Menghapus objek Context",
+      "B": "Mematikan seluruh sistem",
+      "C": "Mengabaikan aksi tersebut, memberikan peringatan/pesan kesalahan, atau melempar Exception yang sesuai",
+      "D": "Memaksa pindah ke status acak",
+      "E": "Membuat Infinite Loop"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 59,
+    "pertanyaan": "Apakah sebuah program dapat memiliki beberapa instance dari kelas Context yang masing-masing memiliki status (state) yang berbeda secara bersamaan?",
+    "pilihan": {
+      "A": "Tidak, Context harus selalu Singleton",
+      "B": "Ya, setiap instance Context berjalan independen dan melacak state-nya masing-masing",
+      "C": "Tidak, state adalah variabel statis global",
+      "D": "Ya, tetapi hanya jika state-nya menggunakan Observer pattern",
+      "E": "Tidak, State pattern hanya mendukung satu mesin state per aplikasi"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 60,
+    "pertanyaan": "State Pattern sangat sesuai dengan prinsip SOLID yang mana, karena ia memindahkan tanggung jawab status tertentu ke kelasnya sendiri?",
+    "pilihan": {
+      "A": "Interface Segregation Principle",
+      "B": "Single Responsibility Principle",
+      "C": "Liskov Substitution Principle",
+      "D": "Dependency Inversion Principle",
+      "E": "Don't Repeat Yourself (DRY)"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 61,
+    "pertanyaan": "Menggunakan kelas abstrak (Abstract Class) sebagai dasar State dibandingkan Interface murni memberikan keuntungan, yaitu...",
+    "pilihan": {
+      "A": "Bisa diwariskan berkali-kali",
+      "B": "Bisa mengimplementasikan perilaku default untuk metode tertentu sehingga Concrete State tidak perlu mendefinisikan semuanya berulang",
+      "C": "Kompilasi kode menjadi lebih lambat",
+      "D": "Lebih sulit dipahami",
+      "E": "Menghindari penggunaan kata kunci 'extends'"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 62,
+    "pertanyaan": "Kelemahan atau biaya abstraksi (cost of abstraction) yang muncul saat menerapkan State Pattern pada sistem sederhana adalah...",
+    "pilihan": {
+      "A": "Program akan sering mengalami crash",
+      "B": "Jumlah file dan kelas (class) di dalam project akan meningkat (class explosion), yang bisa mempersulit navigasi awal",
+      "C": "Membutuhkan spesifikasi hardware komputer yang tinggi",
+      "D": "Sistem keamanan akan menjadi lemah",
+      "E": "Database tidak akan bisa menyimpan log"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 63,
+    "pertanyaan": "Contoh: Ada pemutar media (Media Player) dengan status Playing, Paused, dan Stopped. Jika fungsi tombol 'Play' ditekan, perilakunya harus berbeda di tiap status. Jika menggunakan State Pattern, logika ini ditulis di mana?",
+    "pilihan": {
+      "A": "Dalam satu statement 'switch' panjang di kelas Media Player",
+      "B": "Disebar di kelas PlayingState, PausedState, dan StoppedState di dalam metode 'pressPlay()'",
+      "C": "Di dalam database eksternal",
+      "D": "Di dalam sistem operasi perangkat",
+      "E": "Di kelas antarmuka pengguna (UI) langsung"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 64,
+    "pertanyaan": "Di dalam State Pattern, apa yang sebenarnya dilakukan oleh objek Context saat klien memanggil suatu operasi kepadanya?",
+    "pilihan": {
+      "A": "Mengeksekusi logika internalnya sendiri menggunakan if-else",
+      "B": "Mencetak log bahwa operasi dipanggil dan mengabaikannya",
+      "C": "Mendelegasikan atau meneruskan panggilan eksekusi tersebut ke objek State yang saat ini aktif",
+      "D": "Membuat objek State baru setiap kali dipanggil",
+      "E": "Mengakhiri aplikasi"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 65,
+    "pertanyaan": "Dalam bahasa yang menspesifikasikan tipe data secara ketat (statically typed), Context mengganti statusnya dengan mengubah referensi variabel. Tipe dari variabel referensi ini harus berupa...",
+    "pilihan": {
+      "A": "Tipe Concrete State (misal: PlayingState)",
+      "B": "Tipe Object murni",
+      "C": "Tipe State Dasar (Antarmuka atau Kelas Abstrak State)",
+      "D": "String yang berisi nama kelas",
+      "E": "Integer yang menjadi ID status"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 66,
+    "pertanyaan": "Apabila sebuah State bergantung sangat kuat pada metode privat yang ada di dalam Context, ini menunjukkan potensi pelemahan dalam hal...",
+    "pilihan": {
+      "A": "Inheritance",
+      "B": "Polymorphism",
+      "C": "Encapsulation (Context mungkin harus mengekspos metode/data internalnya agar bisa diakses oleh State)",
+      "D": "LSP (Liskov Substitution Principle)",
+      "E": "Type Safety"
+    },
+    "jawaban_benar": "C"
+  },
+  {
+    "id": 67,
+    "pertanyaan": "Salah satu keuntungan mendasar dari State Pattern adalah mengubah transisi implisit (lewat perubahan nilai integer/boolean) menjadi transisi eksplisit. Maksudnya adalah...",
+    "pilihan": {
+      "A": "Transisi tidak pernah terjadi",
+      "B": "Transisi diubah dengan penginstansiasian/pengubahan objek State yang tegas, membuat perpindahan status sangat jelas di tingkat objek",
+      "C": "Sistem memaksa user mengkonfirmasi setiap transisi dengan pop-up",
+      "D": "Setiap status dicetak ke printer secara eksplisit",
+      "E": "Variabel boolean diubah menjadi string"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 68,
+    "pertanyaan": "Apakah State Pattern memaksakan urutan transisi yang linier (A harus ke B, B harus ke C)?",
+    "pilihan": {
+      "A": "Ya, karena state machine selalu linier",
+      "B": "Tidak, urutan transisi bisa membentuk siklus, melompat, atau memiliki banyak cabang tergantung logika bisnis pada Concrete State atau Context",
+      "C": "Ya, urutannya didefinisikan secara abjad oleh nama kelasnya",
+      "D": "Tidak, semua status harus diakses dalam hitungan milidetik",
+      "E": "Ya, karena pola ini diadopsi dari mesin antrean"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 69,
+    "pertanyaan": "Jika pola State dan Strategy mirip secara struktural, apa yang menjadi pembeda utama dalam kacamata 'Siapa yang memegang kendali'? ",
+    "pilihan": {
+      "A": "Dalam State, klien yang secara aktif mengatur status. Dalam Strategy, Context yang mengaturnya.",
+      "B": "Dalam State, status tersebut biasanya bisa berevolusi atau berubah sendiri dari dalam (self-transitions). Dalam Strategy, klien yang menyuapkan (inject) strategi secara kaku dan biasanya tidak merubahnya sendiri secara internal.",
+      "C": "Keduanya persis sama, klien yang mengatur segalanya.",
+      "D": "Sistem operasi yang menentukan algoritma mana yang akan dipakai",
+      "E": "Komputer pengguna yang memilihnya berdasarkan sisa RAM"
+    },
+    "jawaban_benar": "B"
+  },
+  {
+    "id": 70,
+    "pertanyaan": "Kesimpulan dari penggunaan State Pattern adalah menjadikan kode...",
+    "pilihan": {
+      "A": "Lebih rumit dari sebelumnya terlepas dari skalanya",
+      "B": "Sangat bergantung pada penggunaan variabel global statis",
+      "C": "Lebih kohesif, OCP-compliant, dan terbebas dari kondisional raksasa yang mengatur state, asalkan logika statenya cukup kompleks",
+      "D": "Tidak bisa diuji secara unit test (untestable)",
+      "E": "Sepenuhnya fungsional murni tanpa efek samping (side effects)"
+    },
+    "jawaban_benar": "C"
+  }
+]
